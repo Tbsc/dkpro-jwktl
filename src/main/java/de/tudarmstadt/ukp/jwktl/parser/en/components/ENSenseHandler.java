@@ -70,6 +70,11 @@ public class ENSenseHandler extends ENBlockHandler {
 
 	protected String lastPrefix;
 
+	// -- TBSC CHANGES --
+	protected List<String> head;
+	protected List<String> body;
+	// -- END CHANGES --
+
 	/**
 	 * Init attributes
 	 */
@@ -107,6 +112,11 @@ public class ENSenseHandler extends ENBlockHandler {
 	 * Process head
 	 */
 	public boolean processHead(String text, ParsingContext context) {
+		// -- TBSC CHANGES --
+		head = new ArrayList<>();
+		body = new ArrayList<>();
+		this.head.add(text);
+		// -- END CHANGES --
 		context.setPartOfSpeech(partOfSpeech);
 		glossEntryList = new ArrayList<>();
 		wordFormHandler = getWordFormHandler(context);
@@ -131,6 +141,9 @@ public class ENSenseHandler extends ENBlockHandler {
 		String line = text.trim();
 		if (line.isEmpty())
 			return takeControl;
+		// -- TBSC CHANGES --
+		this.body.add(text);
+		// -- END CHANGES --
 
 		boolean additionalLine = false;
 		if (!line.startsWith("#") && !line.startsWith("{")) {
@@ -232,6 +245,11 @@ public class ENSenseHandler extends ENBlockHandler {
 		List<GrammaticalGender> genders = wordFormHandler.getGenders();
 		if (genders != null)
 			genders.forEach(entry::addGender);
+
+		// -- TBSC CHANGES --
+		entry.setHeadText(String.join("\n", head));
+		entry.setBodyText(String.join("\n", body));
+		// -- END CHANGES --
 	}
 
 	private void processExampleLine(String line, String currentPrefix, boolean additionalLine) {

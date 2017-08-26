@@ -24,18 +24,7 @@ import de.tudarmstadt.ukp.jwktl.parser.IWiktionaryEntryParser;
 import de.tudarmstadt.ukp.jwktl.parser.WiktionaryEntryParser;
 import de.tudarmstadt.ukp.jwktl.parser.components.CategoryHandler;
 import de.tudarmstadt.ukp.jwktl.parser.components.InterwikiLinkHandler;
-import de.tudarmstadt.ukp.jwktl.parser.en.components.ENDescendantRelationHandler;
-import de.tudarmstadt.ukp.jwktl.parser.en.components.ENEntryFactory;
-import de.tudarmstadt.ukp.jwktl.parser.en.components.ENEtymologyHandler;
-import de.tudarmstadt.ukp.jwktl.parser.en.components.ENPronunciationHandler;
-import de.tudarmstadt.ukp.jwktl.parser.en.components.ENQuotationHandler;
-import de.tudarmstadt.ukp.jwktl.parser.en.components.ENReferenceHandler;
-import de.tudarmstadt.ukp.jwktl.parser.en.components.ENRelationHandler;
-import de.tudarmstadt.ukp.jwktl.parser.en.components.ENSemanticRelationHandler;
-import de.tudarmstadt.ukp.jwktl.parser.en.components.ENSenseHandler;
-import de.tudarmstadt.ukp.jwktl.parser.en.components.ENTranslationHandler;
-import de.tudarmstadt.ukp.jwktl.parser.en.components.ENUsageNotesHandler;
-import de.tudarmstadt.ukp.jwktl.parser.en.components.ENWordLanguageHandler;
+import de.tudarmstadt.ukp.jwktl.parser.en.components.*;
 import de.tudarmstadt.ukp.jwktl.parser.util.ParsingContext;
 
 /**
@@ -76,6 +65,10 @@ public class ENWiktionaryEntryParser extends WiktionaryEntryParser {
 		register(new InterwikiLinkHandler("Category"));
 		register(new ENWordLanguageHandler());
 		register(new ENSenseHandler());
+
+		// -- TBSC CHANGES --
+		register(new ENDutchInflectionsHandler());
+		// -- END CHANGES --
 	}
 	
 	@Override

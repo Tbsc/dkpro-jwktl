@@ -18,9 +18,11 @@
 package de.tudarmstadt.ukp.jwktl.api;
 
 import java.util.List;
+import java.util.Map;
 
 import de.tudarmstadt.ukp.jwktl.api.util.GrammaticalGender;
 import de.tudarmstadt.ukp.jwktl.api.util.ILanguage;
+import de.tudarmstadt.ukp.jwktl.api.util.NLInflection;
 
 /**
  * A {@link IWiktionaryEntry} corresponds to a lexical entry. That is, a
@@ -239,5 +241,25 @@ public interface IWiktionaryEntry {
 	 *  {@link IWiktionarySense#getTranslations(ILanguage)} for each sense.
 	 *  The list is never <code>null</code> but might be empty. */
 	List<IWiktionaryTranslation> getTranslations(final ILanguage language);
+
+	// -- TBSC CHANGES --
+
+	/**
+	 * Returns a string containing all head wikitext, lines separated with newlines.
+	 */
+	String getHeadText();
+
+	/**
+	 * Returns a string containing all body wikitext, lines separated with newlines.
+	 */
+	String getBodyText();
+
+	/**
+	 * If the entry is of a Dutch verb, this map contains all possible inflections.
+	 * If it's not, then it's just an empty map.
+	 */
+	Map<NLInflection, String> getDutchVerbInflections();
+
+	// -- END CHANGES --
 
 }

@@ -20,6 +20,7 @@ package de.tudarmstadt.ukp.jwktl.api.entry;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Map;
 
 import com.sleepycat.persist.model.Persistent;
 
@@ -38,6 +39,7 @@ import de.tudarmstadt.ukp.jwktl.api.RelationType;
 import de.tudarmstadt.ukp.jwktl.api.util.GrammaticalGender;
 import de.tudarmstadt.ukp.jwktl.api.util.ILanguage;
 import de.tudarmstadt.ukp.jwktl.api.util.Language;
+import de.tudarmstadt.ukp.jwktl.api.util.NLInflection;
 
 /**
  * Default implementation of the {@link IWiktionaryEntry} interface.
@@ -66,6 +68,12 @@ public class WiktionaryEntry implements IWiktionaryEntry {
 	protected List<IWiktionaryWordForm> wordForms;
 
 	protected List<WiktionarySense> senses;
+
+	// -- TBSC CHANGES --
+	protected String head;
+	protected String body;
+	protected Map<NLInflection, String> dutchVerbInflections;
+	// -- END CHANGES --
 
 	/** Instanciates a new, empty entry. */
 	public WiktionaryEntry() {
@@ -390,4 +398,40 @@ public class WiktionaryEntry implements IWiktionaryEntry {
 	public String toString() {
 		return getClass().getName() + ":" + index + ":" + wordLanguageStr + ":" + getPartOfSpeech();
 	}
+
+	// -- TBSC CHANGES --
+
+	public void setHeadText(String head) {
+		this.head = head;
+	}
+
+	@Override
+	public String getHeadText() {
+		return head;
+	}
+
+	public void setBodyText(String body) {
+		this.body = body;
+	}
+
+	@Override
+	public String getBodyText() {
+		return body;
+	}
+
+	public void setDutchVerbInflections(Map<NLInflection, String> inflections) {
+		this.dutchVerbInflections = inflections;
+	}
+
+	public void addDutchVerbInflection(NLInflection inflection, String inflected) {
+		this.dutchVerbInflections.put(inflection, inflected);
+	}
+
+	@Override
+	public Map<NLInflection, String> getDutchVerbInflections() {
+		return dutchVerbInflections;
+	}
+
+	// -- END CHANGES --
+
 }
