@@ -151,6 +151,8 @@ public class ENDutchInflectionsHandler extends ENBlockHandler implements Templat
         addInfl(NLInflection.VERBAL_NOUN, infinitive);
         // I know this isn't an inflection, but it should still be added
         addInfl(NLInflection.AUXILIARY_VERB, auxiliaryVerb);
+        // weak verbs never have a class
+        addInfl(NLInflection.CLASS, "");
 
         // 1st person
         addInfl(NLInflection.FIRST_PERSON_SINGULAR_PRESENT, firstPersonSingularPresent);
