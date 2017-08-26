@@ -1,0 +1,20 @@
+==Dutch==
+
+===Pronunciation===
+* {{audio|Nl-uitkijken.ogg|Audio|lang=nl}}
+
+===Etymology===
+{{compound|nl|uit|kijken}}
+
+===Verb===
+{{nl-verb}}
+
+# {{lb|nl|transitive}} to [[watch]] (something) until the end
+# {{lb|nl|intransitive}} to [[look out]], to [[watch out]], to be [[vigilant]]
+# {{lb|nl|transitive|with "naar"}} to look forward to
+
+====Inflection====
+{{nl-conj-st|class=1|sep=uit|kijk|keek|keken||keke}}
+
+===Anagrams===
+* {{l|nl|kijken uit}}

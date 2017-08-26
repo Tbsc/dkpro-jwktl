@@ -1,0 +1,31 @@
+==Dutch==
+
+===Pronunciation===
+* {{IPA|lang=nl|/ˈkɛi̯kə(n)/}}
+* {{audio|Nl-kijken.ogg|audio|lang=nl}}
+* {{rhymes|ɛi̯kən|lang=nl}}
+
+===Etymology===
+From {{inh|nl|dum|kiken}}, from {{inh|nl|odt|*kīkan}}, from {{inh|nl|gem-pro|*kīkaną}}<ref>{{R:Philippa EWN 2009}}</ref>.
+
+===Verb===
+{{nl-verb}}
+
+# {{lb|nl|intransitive}} to [[look]] {{+preo|nl|naar|means=at}}
+# {{lb|nl|transitive}} to [[watch]] (e.g. a film), to [[observe]]
+
+====Inflection====
+{{nl-conj-st|class=1|kijk|keek|keken||keke}}
+
+====Derived terms====
+* {{l|nl|aankijken}}
+* {{l|nl|achteromkijken}}
+* {{l|nl|afkijken}}
+* {{l|nl|bekijken}}
+* {{l|nl|kiekeboe}}
+* {{l|nl|omkijken}}
+* {{l|nl|terugkijken}}
+* {{l|nl|vooruitkijken}}
+
+===References===
+<references/>

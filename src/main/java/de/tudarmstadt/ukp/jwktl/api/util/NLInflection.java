@@ -12,7 +12,8 @@ public class NLInflection {
         SUBJUNCTIVE,
         IMPERATIVE,
         PARTICIPLE,
-        AUXILIARY_VERB,
+        AUXILIARY_VERB, // used to note which auxiliary verb should be used with this verb
+        CLASS, // used to note the verb class (1-7)
         NONE
     }
 
@@ -30,6 +31,7 @@ public class NLInflection {
     public static final NLInflection GERUND = new NLInflection(Type.GERUND);
     public static final NLInflection VERBAL_NOUN = new NLInflection(Type.VERBAL_NOUN);
     public static final NLInflection AUXILIARY_VERB = new NLInflection(Type.AUXILIARY_VERB);
+    public static final NLInflection CLASS = new NLInflection(Type.CLASS);
     public static final NLInflection FIRST_PERSON_SINGULAR_PRESENT = new NLInflection(Type.FIRST_PERSON, Number.SINGULAR, Tense.PRESENT);
     public static final NLInflection FIRST_PERSON_SINGULAR_PAST = new NLInflection(Type.FIRST_PERSON, Number.SINGULAR, Tense.PAST);
     public static final NLInflection SECOND_PERSON_SINGULAR_PRESENT = new NLInflection(Type.SECOND_PERSON, Number.SINGULAR, Tense.PRESENT);

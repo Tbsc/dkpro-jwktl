@@ -1,0 +1,132 @@
+{{also|Binden}}
+==Dutch==
+
+===Pronunciation===
+* {{IPA|/ˈbɪndə(n)/|lang=nl}}
+* {{audio|Nl-binden.ogg|audio|lang=nl}}
+
+===Etymology===
+{{PIE root|nl|bʰendʰ}}
+From {{inh|nl|dum|binden}}, from {{inh|nl|odt|bindan}}, from {{inh|nl|gem-pro|*bindaną}}, from {{der|nl|ine-pro|*bʰendʰ-}}.
+
+===Verb===
+{{nl-verb}}
+
+# {{lb|nl|transitive}} to [[tie]]
+# {{lb|nl|transitive}} to [[wrap]]
+# {{lb|nl|transitive}} to [[bind]] {{gloss|generally, legally/contractually, of food}}
+
+====Inflection====
+{{nl-conj-st|class=3|bind|bond|bonden}}
+
+====Derived terms====
+* {{l|nl|dichtbinden}}
+* {{l|nl|inbinden}}
+* {{l|nl|ontbinden}}
+* {{l|nl|opbinden}}
+* {{l|nl|vastbinden}}
+* {{l|nl|verbinden}}
+
+----
+
+==German==
+
+===Etymology===
+{{PIE root|de|bʰendʰ}}
+From {{inh|de|gmh|binden}}, from {{inh|de|goh|bintan}}, from {{inh|de|gem-pro|*bindaną}}, from {{inh|de|ine-pro|*bʰendʰ-}}. Cognate with {{cog|nds|binnen}}, {{cog|nl|binden}}, {{cog|en|bind}}, {{cog|da|binde}}.
+
+===Pronunciation===
+* {{IPA|/ˈbɪndn̩/|/ˈbɪndən/|lang=de}}
+* {{audio|De-binden.ogg|Audio|lang=de}}
+* {{rhymes|ɪndn̩|lang=de}}
+
+===Verb===
+{{de-verb-strong|class=3|bindet|band|gebunden|past subjunctive=bände}}
+
+# {{lb|de|transitive}} to [[tie#Verb|tie]] up; to [[fasten]]; to [[bind]] together
+#: ''ein Buch '''binden''''' — “to bind a book”
+# {{lb|de|transitive}} to [[knot]]
+# {{lb|de|intransitive}} to [[congeal]]; to [[thicken]]; to [[set]]; to [[bond]]
+# {{lb|de|reflexive}} to become [[involve]]d; to [[commit]] (oneself)
+
+====Conjugation====
+{{de-conj-strong|bind|band|gebunden|h|e||bänd|a}}
+
+====Derived terms====
+{{der3|abbinden|anbinden|Angebinde|aufbinden|Ausbund|Band|Binde|Bindedraht|Bindegarn|Binder|Bindegewebe|Bindehaut|Bindemittel|bindend|Binderei|Bindestrich|Bindeton|Bindewort|Bindfaden|Bindung|Buchbinder|Bund|Einband|einbinden|entbinden|Gebinde|umbinden|ungebunden|unterbinden|unverbindlich|verbinden|verbindlich|Verbindlichkeit|Verbindung|Verbund|zubinden|lang=de}}
+
+===Further reading===
+* {{R:Duden}}
+
+----
+
+==Middle Dutch==
+
+===Etymology===
+{{PIE root|dum|bʰendʰ}}
+From {{inh|dum|odt|bindan}}, from {{inh|dum|gem-pro|*bindaną}}, from {{inh|dum|ine-pro|*bʰendʰ-}}.
+
+===Verb===
+{{dum-verb}}
+
+# to [[bind]], to [[tie]]
+# to [[tie up]]
+# to [[bind]] {{gloss|to an obligation}}
+
+====Inflection====
+{{dum-conj-st|class=3|bind|band|bond|bond}}
+
+====Derived terms====
+* {{l|dum|bindere}}
+* {{l|dum|bindinge}}
+* {{l|dum|bebinden}}
+* {{l|dum|gebinden}}
+* {{l|dum|herbinden}}
+* {{l|dum|ontbinden}}
+* {{l|dum|verbinden}}
+* {{l|dum|wēderbinden}}
+
+====Descendants====
+* Dutch: {{l|nl|binden}}
+* Limburgish: {{l|li|binje}}
+
+===Further reading===
+* {{R:VMNW|ID71623|II}}
+* {{R:MNW|04427|I}}
+
+----
+
+==Middle High German==
+
+===Etymology===
+{{PIE root|gmh|bʰendʰ}}
+From {{inh|gmh|goh|bintan}}, from {{inh|gmh|gem-pro|*bindaną}}. Cognate with {{cog|nl|binden}} and {{cog|en|bind}}.
+
+===Verb===
+{{head|gmh|verb}}
+
+# to {{l|en|bind}}
+
+====Conjugation====
+{{gmh-conj-IIIa|b|nd}}
+
+====Descendants====
+* German: {{l|de|binden}}
+
+----
+
+==Middle Low German==
+
+===Pronunciation===
+* {{a|originally}} {{IPA|lang=gml|/bɪndən/}}
+
+===Etymology===
+From {{inh|gml|osx|bindan||to bind}}, from {{inh|gml|gem-pro|*bindaną}}.
+
+===Verb===
+{{head|gml|verb}}
+
+# to [[bind]]
+
+====Conjugation====
+{{gml-verb|b|3a|nd|}}

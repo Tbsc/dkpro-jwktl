@@ -150,4 +150,138 @@ public class ENDutchInflectionsHandlerTest extends ENWiktionaryEntryParserTest {
         assertEquals("vertrouwd", vertrouwenInfl.get(NLInflection.PAST_PARTICIPLE));
     }
 
+    public void testStrongVerbs() throws Exception {
+        IWiktionaryPage binden = parse("binden.txt");
+        Map<NLInflection, String> bindenInfl = binden.getEntry(0).getDutchVerbInflections();
+
+        assertEquals("binden", bindenInfl.get(NLInflection.INFINITIVE));
+        assertEquals("binden", bindenInfl.get(NLInflection.GERUND));
+        assertEquals("binden", bindenInfl.get(NLInflection.VERBAL_NOUN));
+        assertEquals("hebben", bindenInfl.get(NLInflection.AUXILIARY_VERB));
+        assertEquals("3", bindenInfl.get(NLInflection.CLASS));
+
+        assertEquals("bind", bindenInfl.get(NLInflection.FIRST_PERSON_SINGULAR_PRESENT));
+        assertEquals("bond", bindenInfl.get(NLInflection.FIRST_PERSON_SINGULAR_PAST));
+
+        assertEquals("bindt", bindenInfl.get(NLInflection.SECOND_PERSON_SINGULAR_PRESENT));
+        assertEquals("bond", bindenInfl.get(NLInflection.SECOND_PERSON_SINGULAR_PAST));
+
+        assertEquals("bindt", bindenInfl.get(NLInflection.THIRD_PERSON_SINGULAR_PRESENT));
+        assertEquals("bond", bindenInfl.get(NLInflection.THIRD_PERSON_SINGULAR_PAST));
+
+        assertEquals("binden", bindenInfl.get(NLInflection.PLURAL_PRESENT));
+        assertEquals("bonden", bindenInfl.get(NLInflection.PLURAL_PAST));
+
+        assertEquals("binde", bindenInfl.get(NLInflection.SUBJUNCTIVE_SINGULAR_PRESENT));
+        assertEquals("bonde", bindenInfl.get(NLInflection.SUBJUNCTIVE_SINGULAR_PAST));
+
+        assertEquals("binden", bindenInfl.get(NLInflection.SUBJUNCTIVE_PLURAL_PRESENT));
+        assertEquals("bonden", bindenInfl.get(NLInflection.SUBJUNCTIVE_PLURAL_PAST));
+
+        assertEquals("bind", bindenInfl.get(NLInflection.IMPERATIVE_SINGULAR));
+        assertEquals("bindt", bindenInfl.get(NLInflection.IMPERATIVE_PLURAL));
+
+        assertEquals("bindend", bindenInfl.get(NLInflection.PRESENT_PARTICIPLE));
+        assertEquals("gebonden", bindenInfl.get(NLInflection.PAST_PARTICIPLE));
+
+        IWiktionaryPage uitkijken = parse("uitkijken.txt");
+        Map<NLInflection, String> uitkijkenInfl = uitkijken.getEntry(0).getDutchVerbInflections();
+
+        assertEquals("uitkijken", uitkijkenInfl.get(NLInflection.INFINITIVE));
+        assertEquals("uitkijken", uitkijkenInfl.get(NLInflection.GERUND));
+        assertEquals("uitkijken", uitkijkenInfl.get(NLInflection.VERBAL_NOUN));
+        assertEquals("hebben", uitkijkenInfl.get(NLInflection.AUXILIARY_VERB));
+        assertEquals("1", uitkijkenInfl.get(NLInflection.CLASS));
+
+        assertEquals("kijk uit", uitkijkenInfl.get(NLInflection.FIRST_PERSON_SINGULAR_PRESENT));
+        assertEquals("keek uit", uitkijkenInfl.get(NLInflection.FIRST_PERSON_SINGULAR_PAST));
+
+        assertEquals("kijkt uit", uitkijkenInfl.get(NLInflection.SECOND_PERSON_SINGULAR_PRESENT));
+        assertEquals("keek uit", uitkijkenInfl.get(NLInflection.SECOND_PERSON_SINGULAR_PAST));
+
+        assertEquals("kijkt uit", uitkijkenInfl.get(NLInflection.THIRD_PERSON_SINGULAR_PRESENT));
+        assertEquals("keek uit", uitkijkenInfl.get(NLInflection.THIRD_PERSON_SINGULAR_PAST));
+
+        assertEquals("kijken uit", uitkijkenInfl.get(NLInflection.PLURAL_PRESENT));
+        assertEquals("keken uit", uitkijkenInfl.get(NLInflection.PLURAL_PAST));
+
+        assertEquals("kijke uit", uitkijkenInfl.get(NLInflection.SUBJUNCTIVE_SINGULAR_PRESENT));
+        assertEquals("keke uit", uitkijkenInfl.get(NLInflection.SUBJUNCTIVE_SINGULAR_PAST));
+
+        assertEquals("kijken uit", uitkijkenInfl.get(NLInflection.SUBJUNCTIVE_PLURAL_PRESENT));
+        assertEquals("keken uit", uitkijkenInfl.get(NLInflection.SUBJUNCTIVE_PLURAL_PAST));
+
+        assertEquals("kijk uit", uitkijkenInfl.get(NLInflection.IMPERATIVE_SINGULAR));
+        assertEquals("kijkt uit", uitkijkenInfl.get(NLInflection.IMPERATIVE_PLURAL));
+
+        assertEquals("uitkijkend", uitkijkenInfl.get(NLInflection.PRESENT_PARTICIPLE));
+        assertEquals("uitgekeken", uitkijkenInfl.get(NLInflection.PAST_PARTICIPLE));
+
+        IWiktionaryPage kijken = parse("kijken.txt");
+        Map<NLInflection, String> kijkenInfl = kijken.getEntry(0).getDutchVerbInflections();
+
+        assertEquals("kijken", kijkenInfl.get(NLInflection.INFINITIVE));
+        assertEquals("kijken", kijkenInfl.get(NLInflection.GERUND));
+        assertEquals("kijken", kijkenInfl.get(NLInflection.VERBAL_NOUN));
+        assertEquals("hebben", kijkenInfl.get(NLInflection.AUXILIARY_VERB));
+        assertEquals("1", kijkenInfl.get(NLInflection.CLASS));
+
+        assertEquals("kijk", kijkenInfl.get(NLInflection.FIRST_PERSON_SINGULAR_PRESENT));
+        assertEquals("keek", kijkenInfl.get(NLInflection.FIRST_PERSON_SINGULAR_PAST));
+
+        assertEquals("kijkt", kijkenInfl.get(NLInflection.SECOND_PERSON_SINGULAR_PRESENT));
+        assertEquals("keek", kijkenInfl.get(NLInflection.SECOND_PERSON_SINGULAR_PAST));
+
+        assertEquals("kijkt", kijkenInfl.get(NLInflection.THIRD_PERSON_SINGULAR_PRESENT));
+        assertEquals("keek", kijkenInfl.get(NLInflection.THIRD_PERSON_SINGULAR_PAST));
+
+        assertEquals("kijken", kijkenInfl.get(NLInflection.PLURAL_PRESENT));
+        assertEquals("keken", kijkenInfl.get(NLInflection.PLURAL_PAST));
+
+        assertEquals("kijke", kijkenInfl.get(NLInflection.SUBJUNCTIVE_SINGULAR_PRESENT));
+        assertEquals("keke", kijkenInfl.get(NLInflection.SUBJUNCTIVE_SINGULAR_PAST));
+
+        assertEquals("kijken", kijkenInfl.get(NLInflection.SUBJUNCTIVE_PLURAL_PRESENT));
+        assertEquals("keken", kijkenInfl.get(NLInflection.SUBJUNCTIVE_PLURAL_PAST));
+
+        assertEquals("kijk", kijkenInfl.get(NLInflection.IMPERATIVE_SINGULAR));
+        assertEquals("kijkt", kijkenInfl.get(NLInflection.IMPERATIVE_PLURAL));
+
+        assertEquals("kijkend", kijkenInfl.get(NLInflection.PRESENT_PARTICIPLE));
+        assertEquals("gekeken", kijkenInfl.get(NLInflection.PAST_PARTICIPLE));
+
+        IWiktionaryPage geven = parse("geven.txt");
+        Map<NLInflection, String> gevenInfl = geven.getEntry(0).getDutchVerbInflections();
+
+        assertEquals("geven", gevenInfl.get(NLInflection.INFINITIVE));
+        assertEquals("geven", gevenInfl.get(NLInflection.GERUND));
+        assertEquals("geven", gevenInfl.get(NLInflection.VERBAL_NOUN));
+        assertEquals("hebben", gevenInfl.get(NLInflection.AUXILIARY_VERB));
+        assertEquals("5", gevenInfl.get(NLInflection.CLASS));
+
+        assertEquals("geef", gevenInfl.get(NLInflection.FIRST_PERSON_SINGULAR_PRESENT));
+        assertEquals("gaf", gevenInfl.get(NLInflection.FIRST_PERSON_SINGULAR_PAST));
+
+        assertEquals("geeft", gevenInfl.get(NLInflection.SECOND_PERSON_SINGULAR_PRESENT));
+        assertEquals("gaf", gevenInfl.get(NLInflection.SECOND_PERSON_SINGULAR_PAST));
+
+        assertEquals("geeft", gevenInfl.get(NLInflection.THIRD_PERSON_SINGULAR_PRESENT));
+        assertEquals("gaf", gevenInfl.get(NLInflection.THIRD_PERSON_SINGULAR_PAST));
+
+        assertEquals("geven", gevenInfl.get(NLInflection.PLURAL_PRESENT));
+        assertEquals("gaven", gevenInfl.get(NLInflection.PLURAL_PAST));
+
+        assertEquals("geve", gevenInfl.get(NLInflection.SUBJUNCTIVE_SINGULAR_PRESENT));
+        assertEquals("gave", gevenInfl.get(NLInflection.SUBJUNCTIVE_SINGULAR_PAST));
+
+        assertEquals("geven", gevenInfl.get(NLInflection.SUBJUNCTIVE_PLURAL_PRESENT));
+        assertEquals("gaven", gevenInfl.get(NLInflection.SUBJUNCTIVE_PLURAL_PAST));
+
+        assertEquals("geef", gevenInfl.get(NLInflection.IMPERATIVE_SINGULAR));
+        assertEquals("geeft", gevenInfl.get(NLInflection.IMPERATIVE_PLURAL));
+
+        assertEquals("gevend", gevenInfl.get(NLInflection.PRESENT_PARTICIPLE));
+        assertEquals("gegeven", gevenInfl.get(NLInflection.PAST_PARTICIPLE));
+    }
+
 }

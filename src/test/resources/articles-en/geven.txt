@@ -1,0 +1,83 @@
+==Dutch==
+
+===Pronunciation===
+* {{IPA|/ˈɣeːvə(n)/|lang=nl}}
+* {{rhymes|eːvən|lang=nl}}
+* {{audio|Nl-geven (Belgium).ogg|audio (Belgium)|lang=nl}}
+* {{audio|Nl-geven.ogg|audio (Netherlands)|lang=nl}}
+
+===Etymology===
+From {{inh|nl|dum|gēven}}, from {{inh|nl|odt|gevan}}, from {{inh|nl|gem-pro|*gebaną}}.
+
+===Verb===
+{{nl-verb}}
+
+# {{lb|nl|transitive}} to [[give]]
+#: {{ux|nl|Ik '''gaf''' hem een nieuw boek.|I '''gave''' him a new book.}}
+
+====Inflection====
+{{nl-conj-st|class=5|geef|gaf|geven|geve|gave|gaaft}}
+
+====Derived terms====
+* {{l|nl|aangeven}}
+* {{l|nl|afgeven}}
+* {{l|nl|begeven}}
+* {{l|nl|doorgeven}}
+* {{l|nl|ingeven}}
+* {{l|nl|lesgeven}}
+* {{l|nl|omgeven}}
+* {{l|nl|opgeven}}
+* {{l|nl|overgeven}}
+* {{l|nl|prijsgeven}}
+* {{l|nl|toegeven}}
+* {{l|nl|vergeven}}
+* {{l|nl|vrijgeven}}
+* {{l|nl|weergeven}}
+
+====Descendants====
+* Afrikaans: {{l|af|gee}}
+
+===Anagrams===
+* {{l|nl|vegen}}
+
+----
+
+==Middle Dutch==
+
+===Etymology===
+From {{inh|dum|odt|gevan}}, from {{inh|dum|gem-pro|*gebaną}}.
+
+===Verb===
+{{dum-verb|head=gēven}}
+
+# to [[give]]
+
+====Inflection====
+{{rfinfl|dum|verb}}{{cln|dum|class 5 strong verbs}}
+
+====Descendants====
+* Dutch: {{l|nl|geven}}
+* Limburgish: {{l|li|gaeve}}
+
+===Further reading===
+* {{R:VMNW|ID65152|gheven|II}}
+* {{R:MNW|13535|I}}
+
+----
+
+==Middle Low German==
+
+===Pronunciation===
+* '''[[Wiktionary:About_Middle_Low_German#Stem_vowels|Stem vowel]]: ē²'''
+** {{a|originally}} {{IPA|lang=gml|/ɣɪɛvən/}}
+
+===Etymology===
+From {{inh|gml|osx|gevan||to give}} from {{inh|gml|gem-pro|*gebaną}}.
+
+===Verb===
+{{head|gml|verb|head=gēven}}
+
+# to [[give]]
+
+====Conjugation====
+{{gml-verb|g|5|v|}}
