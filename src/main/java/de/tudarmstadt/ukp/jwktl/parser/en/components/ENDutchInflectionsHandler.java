@@ -55,7 +55,7 @@ public class ENDutchInflectionsHandler extends ENBlockHandler implements Templat
         return null;
     }
 
-    // TODO: separable verb based on clause (look at doorvertellen)
+    // TODO: add support for showing separable verbs in both of their forms (main/subordniate clause)
 
     private void handleWeakVerbTemplate(TemplateParser.Template template) {
         // required param, null checking isn't needed
@@ -63,7 +63,7 @@ public class ENDutchInflectionsHandler extends ENBlockHandler implements Templat
 
         String presentSubjunctiveStem;
         String presentSubjunctiveSuffix = "e";
-        if (template.getNumberedParam(1) != null) {
+        if (template.getNumberedParamsCount() > 1) {
             presentSubjunctiveStem = template.getNumberedParam(1);
             presentSubjunctiveSuffix = "";
         } else {
@@ -81,20 +81,18 @@ public class ENDutchInflectionsHandler extends ENBlockHandler implements Templat
         if (template.getNamedParam("pref") != null) {
             prefix = template.getNamedParam("pref");
         }
+        // past participle prefix should be ge-, or any other provided prefix
+        String pastParticiplePrefix;
+        if ("".equals(prefix)) {
+            pastParticiplePrefix = "ge";
+        } else {
+            pastParticiplePrefix = prefix;
+        }
 
         // default is nothing
         String separable = "";
         if (template.getNamedParam("sep") != null) {
             separable = " " + template.getNamedParam("sep");
-        }
-
-        // stem means this doesn't include a prefix or a suffix
-        // this is NOT the fully inflected verb, and should not be directly added to the map!
-        String pastParticipleStem;
-        if (template.getNumberedParam(2) != null) {
-            pastParticipleStem = template.getNumberedParam(2);
-        } else {
-            pastParticipleStem = stem;
         }
 
         // either "d" or "t"
@@ -105,19 +103,33 @@ public class ENDutchInflectionsHandler extends ENBlockHandler implements Templat
             suffix = applytKofschip(stem);
         }
         String pastSimpleSuffix = suffix + "e";
+        String pastParticipleSuffix = suffix;
+
+        // stem means this doesn't include a prefix or a suffix
+        // this is NOT the fully inflected verb, and should not be directly added to the map!
+        String pastParticipleStem;
+        if (template.getNumberedParamsCount() > 2) {
+            pastParticipleStem = template.getNumberedParam(2);
+            pastParticipleSuffix = "";
+        } else {
+            pastParticipleStem = stem;
+        }
 
         // got all needed data, start inflecting verbs
 
         // also the gerund and verbal noun (in weak verbs)
-        String infinitive = separable + prefix + stem + "en";
+        String infinitive = separable.trim() + prefix + presentSubjunctiveStem + presentSubjunctiveSuffix + "n";
 
         String firstPersonSingularPresent = prefix + stem + separable;
-        String firstPersonSingularPast = prefix + stem + pastSimpleSuffix + separable;
+
         // 2nd and 3rd singular present for weak verbs is the same
         String secondThirdPersonSingularPresent = prefix + stem + "t" + separable;
-        String secondThirdPersonSingularPast = prefix + stem + pastSimpleSuffix + separable;
 
-        String pluralPresent = prefix + presentSubjunctiveStem + "n" + separable;
+        // singular past is the same for all PoVs
+        String singularPast = prefix + stem + pastSimpleSuffix + separable;
+
+        // plural is the same for all PoVs
+        String pluralPresent = prefix + presentSubjunctiveStem + presentSubjunctiveSuffix + "n" + separable;
         String pluralPast = prefix + stem + pastSimpleSuffix + "n" + separable;
 
         String subjunctiveSingularPresent = prefix + presentSubjunctiveStem + presentSubjunctiveSuffix + separable;
@@ -128,55 +140,44 @@ public class ENDutchInflectionsHandler extends ENBlockHandler implements Templat
         String imperativeSingular = prefix + stem + separable;
         String imperativePlural = prefix + stem + "t" + separable;
 
-        String pastParticiple = separable.trim() + prefix + stem + suffix;
-        String presentParticiple = separable.trim() + prefix + pastParticipleStem + "n" + suffix;
+        String presentParticiple = separable.trim() + prefix + presentSubjunctiveStem + presentSubjunctiveSuffix + "n" + suffix;
+        String pastParticiple = separable.trim() + pastParticiplePrefix + pastParticipleStem + pastParticipleSuffix;
 
         // after creating all needed inflections, add them to map
 
         // general
         addInfl(NLInflection.INFINITIVE, infinitive);
-        addInfl(new NLInflection(NLInflection.Type.GERUND), infinitive);
-        addInfl(new NLInflection(NLInflection.Type.VERBAL_NOUN), infinitive);
+        addInfl(NLInflection.GERUND, infinitive);
+        addInfl(NLInflection.VERBAL_NOUN, infinitive);
         // I know this isn't an inflection, but it should still be added
-        addInfl(new NLInflection(NLInflection.Type.AUXILIARY_VERB), auxiliaryVerb);
+        addInfl(NLInflection.AUXILIARY_VERB, auxiliaryVerb);
 
         // 1st person
-        addInfl(NLInflection.STEM, firstPersonSingularPresent);
-        addInfl(new NLInflection(NLInflection.Type.FIRST_PERSON, NLInflection.Number.SINGULAR, NLInflection.Tense.PAST),
-                firstPersonSingularPast);
+        addInfl(NLInflection.FIRST_PERSON_SINGULAR_PRESENT, firstPersonSingularPresent);
+        addInfl(NLInflection.FIRST_PERSON_SINGULAR_PAST, singularPast);
         // 2nd person
-        addInfl(new NLInflection(NLInflection.Type.SECOND_PERSON, NLInflection.Number.SINGULAR, NLInflection.Tense.PRESENT),
-                secondThirdPersonSingularPresent);
-        addInfl(new NLInflection(NLInflection.Type.SECOND_PERSON, NLInflection.Number.SINGULAR, NLInflection.Tense.PAST),
-                secondThirdPersonSingularPast);
+        addInfl(NLInflection.SECOND_PERSON_SINGULAR_PRESENT, secondThirdPersonSingularPresent);
+        addInfl(NLInflection.SECOND_PERSON_SINGULAR_PAST, singularPast);
         // 3rd person
-        addInfl(new NLInflection(NLInflection.Type.THIRD_PERSON, NLInflection.Number.SINGULAR, NLInflection.Tense.PRESENT),
-                secondThirdPersonSingularPresent);
-        addInfl(new NLInflection(NLInflection.Type.THIRD_PERSON, NLInflection.Number.SINGULAR, NLInflection.Tense.PAST),
-                secondThirdPersonSingularPast);
+        addInfl(NLInflection.THIRD_PERSON_SINGULAR_PRESENT, secondThirdPersonSingularPresent);
+        addInfl(NLInflection.THIRD_PERSON_SINGULAR_PAST, singularPast);
 
         // plural
-        addInfl(new NLInflection(NLInflection.Number.PLURAL, NLInflection.Tense.PRESENT), pluralPresent);
-        addInfl(new NLInflection(NLInflection.Number.PLURAL, NLInflection.Tense.PAST), pluralPast);
+        addInfl(NLInflection.PLURAL_PRESENT, pluralPresent);
+        addInfl(NLInflection.PLURAL_PAST, pluralPast);
 
         // subjunctive
-        addInfl(new NLInflection(NLInflection.Type.SUBJUNCTIVE, NLInflection.Number.SINGULAR, NLInflection.Tense.PRESENT),
-                subjunctiveSingularPresent);
-        addInfl(new NLInflection(NLInflection.Type.SUBJUNCTIVE, NLInflection.Number.SINGULAR, NLInflection.Tense.PAST),
-                subjunctiveSingularPast);
-        addInfl(new NLInflection(NLInflection.Type.SUBJUNCTIVE, NLInflection.Number.PLURAL, NLInflection.Tense.PRESENT),
-                subjunctivePluralPresent);
-        addInfl(new NLInflection(NLInflection.Type.SUBJUNCTIVE, NLInflection.Number.PLURAL, NLInflection.Tense.PAST),
-                subjunctivePluralPast);
+        addInfl(NLInflection.SUBJUNCTIVE_SINGULAR_PRESENT, subjunctiveSingularPresent);
+        addInfl(NLInflection.SUBJUNCTIVE_SINGULAR_PAST, subjunctiveSingularPast);
+        addInfl(NLInflection.SUBJUNCTIVE_PLURAL_PRESENT, subjunctivePluralPresent);
+        addInfl(NLInflection.SUBJUNCTIVE_PLURAL_PAST, subjunctivePluralPast);
 
         // imperative
-        addInfl(new NLInflection(NLInflection.Type.IMPERATIVE, NLInflection.Number.SINGULAR, NLInflection.Tense.PRESENT),
-                imperativeSingular);
-        addInfl(new NLInflection(NLInflection.Type.IMPERATIVE, NLInflection.Number.PLURAL, NLInflection.Tense.PRESENT),
-                imperativePlural);
+        addInfl(NLInflection.IMPERATIVE_SINGULAR, imperativeSingular);
+        addInfl(NLInflection.IMPERATIVE_PLURAL, imperativePlural);
 
         // participle
-        addInfl(new NLInflection(NLInflection.Type.PARTICIPLE, NLInflection.Tense.PRESENT), presentParticiple);
+        addInfl(NLInflection.PRESENT_PARTICIPLE, presentParticiple);
         addInfl(NLInflection.PAST_PARTICIPLE, pastParticiple);
     }
 
