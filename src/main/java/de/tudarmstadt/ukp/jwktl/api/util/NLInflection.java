@@ -24,11 +24,27 @@ public class NLInflection {
         PRESENT, PAST, NONE
     }
 
-    // various pre-made inflection types
+    // pre-made inflection types
 
-    // 1st-person singular present
-    public static final NLInflection STEM = new NLInflection(Type.FIRST_PERSON, Number.SINGULAR, Tense.PRESENT);
     public static final NLInflection INFINITIVE = new NLInflection(Type.INFINITIVE);
+    public static final NLInflection GERUND = new NLInflection(Type.GERUND);
+    public static final NLInflection VERBAL_NOUN = new NLInflection(Type.VERBAL_NOUN);
+    public static final NLInflection AUXILIARY_VERB = new NLInflection(Type.AUXILIARY_VERB);
+    public static final NLInflection FIRST_PERSON_SINGULAR_PRESENT = new NLInflection(Type.FIRST_PERSON, Number.SINGULAR, Tense.PRESENT);
+    public static final NLInflection FIRST_PERSON_SINGULAR_PAST = new NLInflection(Type.FIRST_PERSON, Number.SINGULAR, Tense.PAST);
+    public static final NLInflection SECOND_PERSON_SINGULAR_PRESENT = new NLInflection(Type.SECOND_PERSON, Number.SINGULAR, Tense.PRESENT);
+    public static final NLInflection SECOND_PERSON_SINGULAR_PAST = new NLInflection(Type.SECOND_PERSON, Number.SINGULAR, Tense.PAST);
+    public static final NLInflection THIRD_PERSON_SINGULAR_PRESENT = new NLInflection(Type.THIRD_PERSON, Number.SINGULAR, Tense.PRESENT);
+    public static final NLInflection THIRD_PERSON_SINGULAR_PAST = new NLInflection(Type.THIRD_PERSON, Number.SINGULAR, Tense.PAST);
+    public static final NLInflection PLURAL_PRESENT = new NLInflection(Number.PLURAL, Tense.PRESENT);
+    public static final NLInflection PLURAL_PAST = new NLInflection(Number.PLURAL, Tense.PAST);
+    public static final NLInflection SUBJUNCTIVE_SINGULAR_PRESENT = new NLInflection(Type.SUBJUNCTIVE, Number.SINGULAR, Tense.PRESENT);
+    public static final NLInflection SUBJUNCTIVE_SINGULAR_PAST = new NLInflection(Type.SUBJUNCTIVE, Number.SINGULAR, Tense.PAST);
+    public static final NLInflection SUBJUNCTIVE_PLURAL_PRESENT = new NLInflection(Type.SUBJUNCTIVE, Number.PLURAL, Tense.PRESENT);
+    public static final NLInflection SUBJUNCTIVE_PLURAL_PAST = new NLInflection(Type.SUBJUNCTIVE, Number.PLURAL, Tense.PAST);
+    public static final NLInflection IMPERATIVE_SINGULAR = new NLInflection(Type.IMPERATIVE, Number.SINGULAR, Tense.PRESENT);
+    public static final NLInflection IMPERATIVE_PLURAL = new NLInflection(Type.IMPERATIVE, Number.PLURAL, Tense.PRESENT);
+    public static final NLInflection PRESENT_PARTICIPLE = new NLInflection(Type.PARTICIPLE, Tense.PRESENT);
     public static final NLInflection PAST_PARTICIPLE = new NLInflection(Type.PARTICIPLE, Tense.PAST);
 
     public Type type;
