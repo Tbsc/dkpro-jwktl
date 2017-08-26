@@ -1,0 +1,23 @@
+==Dutch==
+
+===Pronunciation===
+* {{IPA|/vərˈtrʌwə(n)/|lang=nl}}
+* {{audio|Nl-vertrouwen.ogg|Audio|lang=nl}}
+* {{hyphenation|ver|trou|wen|lang=nl}}
+
+===Etymology===
+From {{confix|nl|ver|trouw|en}}. Compare German {{m|de|vertrauen}}.
+
+===Noun===
+{{nl-noun|n|-|-}}
+# [[trust]], [[faith]]
+
+===Verb===
+{{nl-verb}}
+# to [[trust]].
+
+====Inflection====
+{{nl-conj-wk|pref=ver|trouw}}
+
+====Derived terms====
+* {{l|nl|toevertrouwen}}

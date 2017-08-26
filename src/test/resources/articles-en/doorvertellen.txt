@@ -1,0 +1,20 @@
+==Dutch==
+
+===Pronunciation===
+* {{IPA|lang=nl|/ˈdoːrvərtɛlə(n)/}}
+* {{audio|Nl-doorvertellen.ogg|Audio|lang=nl}}
+
+===Etymology===
+From {{compound|nl|door|vertellen}}.
+
+===Verb===
+{{nl-verb}}
+
+# {{lb|nl|intransitive}} to [[continue]] [[tell]]ing {{gloss|a story}}
+# {{lb|nl|transitive}} to [[pass on]] (by [[word of mouth]])
+
+====Inflection====
+{{nl-conj-wk|sep=door|pref=ver|tel|telle}}
+
+===Anagrams===
+* [[vertellen door#Dutch|vertellen door]]

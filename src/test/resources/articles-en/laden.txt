@@ -1,0 +1,344 @@
+{{also|Laden|Läden}}
+==English==
+
+===Pronunciation===
+* {{IPA|/ˈleɪdən/|lang=en}}
+* {{rhymes|eɪdən|lang=en}}
+
+===Etymology===
+See ''[[lade]]''.
+
+===Adjective===
+{{en-adj}}
+
+# [[weighed down|Weighed down]] with a load, [[burdened]].
+#* '''1883''', {{w|Robert Louis Stevenson}}, ''{{w|Treasure Island}}''
+#*: The other men were variously burthened; some carrying picks and shovels&mdash;for that had been the very first necessary they brought ashore from the ''Hispaniola''&mdash;others '''laden''' with pork, bread, and brandy for the midday meal.
+# [[heavy|Heavy]].
+#: {{ux|en|His comments were '''laden''' with deeper meaning.}}
+# [[oppressed|Oppressed]].
+#* {{RQ:BLwnds TLdgr|I|0016}}
+#*: Thus the red damask curtains which now shut out the fog-'''laden''', drizzling atmosphere of the Marylebone Road, had cost a mere song, and yet they might have been warranted to last another thirty years. A great bargain also had been the excellent Axminster carpet which covered the floor;{{nb...}}.
+# {{lb|en|chemistry}} In the form of an [[adsorbate]] or [[adduct]].
+#: {{ux|en|Once '''laden''' it is easy to regenerate the adsorbent and retrieve the adsorbed species as a gas.}}
+
+====Translations====
+{{trans-top|weighed down with a load, burdened}}
+* Dutch: {{t+|nl|geladen}}
+* Estonian: {{t|et|koorem, kohustus}}
+* French: {{t+|fr|chargé|m}}, {{t+|fr|chargée|f}}
+* Maori: {{t|mi|tōpaparu}}, {{t|mi|paruparu}}
+{{trans-mid}}
+* Norwegian: {{t|no|nedlastet}}
+* Portuguese: {{t+|pt|carregado}}
+* Spanish: {{t+|es|cargado}}
+{{trans-bottom}}
+
+{{trans-top|heavy}}
+* Dutch: {{t+|nl|geladen}}, {{t+|nl|zwaar}}
+* Estonian: {{t|et|raske}}
+{{trans-mid}}
+* French: {{t+|fr|chargé|m}}, {{t+|fr|chargée|f}}
+{{trans-bottom}}
+
+===Verb===
+{{head|en|past participle}}
+
+# {{past participle of|lade|lang=en|nocat=1}}
+
+===Anagrams===
+* {{anagrams|en|Alden|Nelda|eland|lande|laned|lean'd|naled}}
+
+[[Category:English adjectives ending in -en]]
+
+----
+
+==Danish==
+
+===Noun===
+{{head|da|noun form|g=c}}
+
+# {{singular definite of|lade|lang=da}}
+# verbal noun to {{l|da|lade}} {{qualifier|singular definite form only}}, [[letting]], [[having]], [[making]], [[seeming]], [[pretending]]
+# verbal noun to {{l|da|lade}} {{qualifier|singular definite form only}}, [[loading]], [[charging]]
+
+----
+
+==Dutch==
+
+===Pronunciation===
+* {{IPA|lang=nl|/ˈlaːdə(n)/}}
+* {{rhymes|aːdən|lang=nl}}
+* {{audio|Nl-laden.ogg|audio|lang=nl}}
+
+===Etymology 1===
+{{PIE root|nl|kleh₂}}
+From {{inh|nl|dum|lāden}}, from {{inh|nl|odt|*ladan}}, from {{inh|nl|gem-pro|*hlaþaną}}.
+
+====Verb====
+{{nl-verb}}
+
+# to {{l|en|load}} {{gloss|cargo}}, {{gloss|a weapon}}, {{gloss|data}}
+# to {{l|en|charge}} {{gloss|with electricity}}
+
+=====Inflection=====
+{{nl-conj-wk|laad|lade|laden}}
+
+=====Derived terms=====
+* {{l|nl|laadstation}}
+* {{l|nl|laadschop}}
+* {{l|nl|beladen}}
+* {{l|nl|herladen}}
+* {{l|nl|inladen}}
+* {{l|nl|opladen}}
+* {{l|nl|overladen}}
+* {{l|nl|uitladen}}
+
+===Etymology 2===
+From {{inh|nl|dum|laden}}, from {{inh|nl|odt|*lathon}}, from {{inh|nl|gem-pro|*laþōną||to call}}.
+
+====Verb====
+{{nl-verb}}
+
+# {{lb|nl|archaic}} to [[convocate]]
+# {{lb|nl|archaic}} to [[invite]]
+
+=====Inflection=====
+{{nl-conj-wk|laad|lade}}
+
+===Etymology 3===
+{{nonlemma}}
+
+====Noun====
+{{head|nl|noun plural form}}
+
+# {{nl-noun form of|pl|lade}}
+
+===Anagrams===
+* {{l|nl|dalen}}, {{l|nl|eland}}, {{l|nl|lande}}
+
+----
+
+==German==
+
+===Pronunciation===
+* {{IPA|/ˈlaːdən/|[-dən]|[-dn̩]|lang=de}}
+* {{hyphenation|la|den|lang=de}}
+
+===Etymology 1===
+From {{inh|de|gmh|ladan}}, from {{inh|de|goh|hladan}}, from {{inh|de|gem-pro|*hlaþaną}}.
+
+====Verb====
+{{de-verb-strong|class=6|lädt|lud|geladen|past subjunctive=lüde}}
+
+# {{lb|de|transitive|intransitive}} to [[load]] (something) e.g. into a container or onto a vehicle, to [[load up]]
+# {{lb|de|transitive|intransitive|weaponry}} to [[load]] (some weapon)
+# {{lb|de|transitive|computing}} to [[load]] (some data) from a store
+# {{lb|de|transitive|computing}} to [[download]] from a network
+# {{lb|de|transitive|engineering}} to [[charge]] (a battery or capacitor) with electricity
+
+=====Synonyms=====
+* {{sense|to load up}} {{l|de|aufbürden}}, {{l|de|aufladen}}, {{l|de|auflasten}}, {{l|de|aufnehmen}}, {{l|de|aufpacken}}, {{l|de|befrachten}}, {{l|de|beladen}}, {{l|de|bepacken}}, {{l|de|beschweren}}, {{l|de|einladen}}, {{l|de|stauen}}, {{l|de|unterbringen}}, {{l|de|verladen}}, {{l|de|verstauen}}, {{l|de|vollladen}}, {{l|de|vollpacken}}
+* {{sense|to load a weapon}} {{l|de|nachladen}}
+* {{sense|to download}} {{l|de|downloaden}}, {{l|de|herunterladen}}, {{l|de|runterladen}}, {{l|de|übertragen}}
+* {{sense|to charge}} {{l|de|aufladen}}, {{l|de|elektrisieren}}
+
+====Antonyms====
+* {{sense|to load up}} {{l|de|abladen}}, {{l|de|ausladen}}, {{l|de|herausholen}}, {{l|de|herausnehmen}}, {{l|de|herunternehmen}}, {{l|de|löschen}}
+
+====Derived terms====
+{{der-top}}
+* {{l|de|abladen}}
+* {{l|de|aufladen}}
+* {{l|de|ausladen}}
+* {{l|de|beiladen}}
+* {{l|de|beladen}}
+* {{l|de|einladen}}
+* {{l|de|entladen}}
+* {{l|de|herunterladen}}
+* {{l|de|Ladefläche}}
+{{der-mid}}
+* {{l|de|Ladegut}}
+* {{l|de|Ladekapazität}}
+* {{l|de|Ladeklappe}}
+* {{l|de|nachladen}}
+* {{l|de|überladen}}
+* {{l|de|umladen}}
+* {{l|de|verladen}}
+* {{l|de|vollladen}}
+* {{l|de|zuladen}}
+{{der-bottom}}
+
+=====Related terms=====
+* {{l|de|Lade}}
+* {{l|de|Laden}}
+* {{l|de|Lader}}
+* {{l|de|Ladung}}
+
+===Etymology 2===
+From {{inh|de|gmh|laden}}, from {{inh|de|goh|ladon}}, from {{inh|de|gem-pro|*laþōną}}.
+
+====Verb====
+{{de-verb-strong|class=6|lädt|lud|geladen|past subjunctive=lüde}}
+
+# {{lb|de|transitive}} {{def|to [[invite]]}}
+#: {{syn|de|einladen}}
+# {{lb|de|transitive|legal}} {{def|to [[summon]]}}
+
+====Conjugation====
+{{de-conj-irr-laden|h}}
+
+====Derived terms====
+* {{l|de|ausladen}}
+* {{l|de|einladen}}
+* {{l|de|vorladen}}
+
+=====Related terms=====
+* {{l|de|Laden}}
+
+===Anagrams===
+* {{l|de|lande}}, {{l|de|Lande}}, {{l|de|Nadel}}
+
+----
+
+==Low German==
+
+===Etymology 1===
+From {{inh|nds|gml|laden|lāden}}, from {{inh|nds|osx|hladan}}, from {{inh|nds|gem-pro|*hlaþaną}}.
+
+===Pronunciation===
+* {{IPA|/ˈlaːdn̩/|/ˈlaːdən/|lang=nds}}
+
+===Verb===
+{{head|nds|verb}} (''past singular'' '''[[laad]]''', ''past participle'' '''[[laadt]]''' or '''[[laden]]''', ''auxiliary verb'' '''[[hebben]]''')
+
+# {{lb|nds|transitive|intransitive}} to [[load]] (something) e.g. into a container or onto a vehicle, to [[load up]]
+# {{lb|nds|transitive|intransitive|weaponry}} to [[load]] (some weapon)
+# {{lb|nds|transitive|computing}} to [[load]] (some data) from a store
+# {{lb|nds|transitive|computing}} to [[download]] from a network
+# {{lb|nds|transitive|engineering}} to [[charge]] (a battery or capacitor) with electricity
+
+=====Synonyms=====
+* {{sense|to load up}} {{l|nds|opsacken}}, {{l|nds|opladen}}, {{l|nds|oppuckeln}}, {{l|nds|oplasten}}, {{l|nds|opnehmen}}, {{l|nds|oppacken}}, {{l|nds|befrachten}}, {{l|nds|beladen}}, {{l|nds|bepacken}}, {{l|nds|inladen}}, {{l|nds|stauen}}, {{l|nds|ünnerbringen}}, {{l|nds|verladen}}, {{l|nds|verstauen}}, {{l|nds|vullladen}}, {{l|nds|vullpacken}}
+* {{sense|to load a weapon}} {{l|nds|naladen}}
+* {{sense|to download}} {{l|nds|downloaden}}, {{l|nds|rünnerladen}}, {{l|nds|överdregen}}
+* {{sense|to charge}} {{l|nds|opladen}}, {{l|nds|elektriseren}}
+
+====Antonyms====
+* {{sense|to load up}} {{l|nds|afladen}}, {{l|nds|utladen}}, {{l|nds|ruthalen}}, {{l|nds|rutnehmen}}, {{l|nds|rünnernehmen}}, {{l|nds|löschen}}
+
+====Conjugation====
+{{nds-conj-table<!--
+-->|head=''laden'' (weak verb with strong past participle)<!--
+
+Present indicative
+-->|laad<!--
+-->|laadst<!--
+-->|laadt<!--
+-->|laadt<!--
+
+Past indicative
+-->|laad<!--
+-->|laadst<!--
+-->|laad<!--
+-->|laden<!--
+
+Imperative
+-->|laad<!--
+-->|laadt<!--
+
+Participles
+-->|laden<!--
+-->|laadt/laden<!--
+-->}}
+
+===Etymology 2===
+From {{inh|nds|gml|laden|lāden}}, from {{inh|nds|osx|lathōn}}, from {{inh|nds|gem-pro|*laþōną}}.
+
+===Verb===
+{{head|nds|verb}} (''past singular'' '''[[laad]]''', ''past participle'' '''[[laadt]]''' or '''[[laden]]''', ''auxiliary verb'' '''[[hebben]]''')
+
+# {{lb|nds|transitive}} {{def|to [[invite]]}} (someone)
+# {{lb|nds|transitive|legal}} {{def|to [[summon]]}}
+
+=====Synonyms=====
+* {{sense|to invite}} {{l|nds|inladen}}
+
+====Derived terms====
+* {{l|nds|utladen}}
+* {{l|nds|inladen}}
+* {{l|nds|vörladen}}
+
+====Conjugation====
+{{nds-conj-table<!--
+-->|head=''laden'' (weak verb with strong past participle)<!--
+
+Present indicative
+-->|laad<!--
+-->|laadst<!--
+-->|laadt<!--
+-->|laadt<!--
+
+Past indicative
+-->|laad<!--
+-->|laadst<!--
+-->|laad<!--
+-->|laden<!--
+
+Imperative
+-->|laad<!--
+-->|laadt<!--
+
+Participles
+-->|laden<!--
+-->|laadt/laden<!--
+-->}}
+
+----
+
+==Malay==
+
+===Verb===
+{{head|ms|verb}}
+
+# to [[serve]], [[attend]]
+
+----
+
+==Middle Dutch==
+
+===Etymology 1===
+From {{inh|dum|odt|*ladan}}, from {{inh|dum|gem-pro|*hlaþaną}}.
+
+====Verb====
+{{dum-verb|head=lāden}}
+
+# to [[load]] (goods)
+# to [[load]] (onto a [[beast of burden]])
+# to [[burden]] (with a task)
+
+=====Inflection=====
+{{rfinfl|dum|verb}}{{cln|dum|class 6 strong verbs}}
+
+=====Descendants=====
+* Dutch: {{l|nl|laden}}
+* Limburgish: {{l|li|laaje}}
+
+===Etymology 2===
+From {{inh|dum|odt|*lathon}}, from {{inh|dum|gem-pro|*laþōną||to call}}.
+
+====Verb====
+{{dum-verb|head=lāden}}
+
+# {{lb|dum|eastern}} to [[call]], to [[summon]]
+
+=====Inflection=====
+{{rfinfl|dum|verb}}{{cln|dum|weak verbs|class 6 strong verbs}}
+
+=====Descendants=====
+* Dutch: {{l|nl|laden}}
+
+===Further reading===
+* {{R:VMNW|ID23033}}
+* {{R:MNW|24588|I}}
+* {{R:MNW|24589|II}}

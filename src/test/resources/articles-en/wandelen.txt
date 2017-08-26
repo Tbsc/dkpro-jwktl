@@ -1,0 +1,47 @@
+==Dutch==
+
+===Pronunciation===
+* {{audio|Nl-wandelen.ogg|Audio|lang=nl}}
+
+===Etymology===
+From {{inh|nl|dum|wandelen}}, from {{inh|nl|odt|*wandalon}}, from {{inh|nl|gem-pro|*wandlōną}}.
+
+===Verb===
+{{nl-verb}}
+
+# to [[stroll]], be on a walk (‘to go for a walk’ = ‘gaan wandelen’)
+# to [[walk]]
+
+====Inflection====
+{{nl-conj-wk|wandel}}
+
+====Derived terms====
+* {{l|nl|wandelende tak}}
+* {{l|nl|wandelpad}}
+
+----
+
+==Middle Dutch==
+
+===Etymology===
+From {{inh|dum|odt|*wandalon}}, from {{inh|dum|gem-pro|*wandlōną}}. Equivalent to {{affix|dum|wanden|-elen}}.
+
+===Verb===
+{{dum-verb}}
+
+# to [[go]] [[back and forth]]
+# to [[walk]]
+# to [[wander]], to [[travel]]
+# to [[dwell]]
+# to [[change]]
+
+====Inflection====
+{{rfinfl|dum|verb}}{{cln|dum|weak verbs}}
+
+====Descendants====
+* Dutch: {{l|nl|wandelen}}
+* Limburgish: {{l|li|wanjele}}
+
+===Further reading===
+* {{R:VMNW|ID38813}}
+* {{R:MNW|70265}}
