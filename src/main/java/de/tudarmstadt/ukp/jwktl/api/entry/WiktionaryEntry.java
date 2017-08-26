@@ -17,10 +17,7 @@
  ******************************************************************************/
 package de.tudarmstadt.ukp.jwktl.api.entry;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 import com.sleepycat.persist.model.Persistent;
 
@@ -79,6 +76,9 @@ public class WiktionaryEntry implements IWiktionaryEntry {
 	public WiktionaryEntry() {
 		partsOfSpeech = new ArrayList<>();
 		senses = new ArrayList<>();
+		// -- TBSC CHANGES --
+		dutchVerbInflections = new HashMap<>();
+		// -- END CHANGES --
 		senses.add(new WiktionarySense()); // Dummy sense for all unassigned information.
 	}
 
