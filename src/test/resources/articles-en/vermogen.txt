@@ -1,0 +1,51 @@
+{{also|vermögen|Vermögen}}
+
+==Dutch==
+
+===Pronunciation===
+* {{IPA|/vərˈmoːɣə(n)/|lang=nl}}
+* {{audio|Nl-vermogen.ogg|Audio|lang=nl}}
+* {{hyphenation|ver|mo|gen|lang=nl}}
+
+===Etymology===
+{{prefix|nl|ver|mogen}}
+
+===Noun===
+{{nl-noun|n|-s|vermogentje}}
+
+# [[ability|Ability]], [[power]], [[capacity]].
+#: ''Zijn'' '''vermogen''' ''tot aanpassen is beperkt.''
+#:: ''His ability to adapt is limited.''
+# {{lb|nl|physics}} [[power|Power]].
+#: ''Deze koelkast verbruikt een'' '''vermogen''' ''van 100 W.''
+#:: ''This refrigerator consumes 100 W.''
+# [[fortune|Fortune]], [[large]] [[sum]] of money.
+#: ''Dat huis kostte een'' '''vermogen.'''
+#:: ''That house cost a fortune.''
+# {{lb|nl|economics}} [[total|Total]] of [[material]] [[possessions]].
+#: ''Hij liet zijn hele'' '''vermogen''' ''na aan het Rode Kruis.''
+#:: ''He left his entire fortune to the Red Cross.''
+
+====Derived terms====
+* {{l|nl|aanpassingsvermogen}}
+* {{l|nl|inlevingsvermogen}}
+
+===Verb===
+{{nl-verb}}
+
+# {{lb|nl|rare; formal}} to [[be]] [[able]] to do, to [[be]] [[able]] to [[achieve]]
+#: ''Ik '''vermag''' er niets tegen.''
+#:: ''I can't do anything about it.''
+#: ''Wat muziek al niet'' '''vermag''' ''...''
+#:: ''The things music can do...''
+
+====Inflection====
+{{nl-conj-irr|pref=ver|mogen}}
+
+===Participle===
+{{nl-past-ptc}}
+
+# {{nl-verb form of|t=past|m=ptc|vermogen}}
+
+====Inflection====
+{{nl-decl-past-ptc}}

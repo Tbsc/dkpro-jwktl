@@ -1,0 +1,15 @@
+==Dutch==
+
+===Etymology===
+From {{compound|nl|voor|zijn}}.
+
+===Verb===
+{{nl-verb}}
+
+# {{lb|nl|transitive}} to [[precede]], to get to a place before (someone else)
+
+====Inflection====
+{{nl-conj-irr|sep=voor|zijn|aux=zijn}}
+
+===Anagrams===
+* {{l|nl|zijn voor}}

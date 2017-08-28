@@ -1,0 +1,17 @@
+==Dutch==
+
+===Pronunciation===
+* {{IPA|/ˈaːŋkʏnə(n)/|lang=nl}}
+* {{audio|Nl-aankunnen.ogg|Audio|lang=nl}}
+
+===Etymology===
+From {{compound|nl|aan|kunnen}}.
+
+===Verb===
+{{nl-verb}}
+
+# {{lb|nl|transitive}} to {{l|en|be able to}} {{l|en|handle}}, to be able to take
+#: {{ux|nl|De duikboot '''kan''' de druk niet meer '''aan'''!|The submarine '''can't handle''' the pressure anymore!}}
+
+====Inflection====
+{{nl-conj-irr|sep=aan|kunnen}}

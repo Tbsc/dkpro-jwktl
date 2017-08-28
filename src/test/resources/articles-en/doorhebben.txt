@@ -1,0 +1,22 @@
+==Dutch==
+
+===Pronunciation===
+* {{IPA|lang=nl|/ˈdoːrɦɛbə(n)/}}
+* {{audio|Nl-doorhebben.ogg|Audio|lang=nl}}
+
+===Etymology===
+From {{compound|nl|door|hebben}}.
+
+===Verb===
+{{nl-verb}}
+
+# {{lb|nl|transitive}} to have [[figure out|figured out]], to [[see through]]
+
+====Inflection====
+{{nl-conj-irr|sep=door|hebben}}
+
+====Related terms====
+* {{l|nl|doorkrijgen}}
+
+===Anagrams===
+* {{l|nl|hebben door}}

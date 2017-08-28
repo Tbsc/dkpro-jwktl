@@ -1,0 +1,143 @@
+==Dutch==
+
+===Pronunciation===
+* {{IPA|/ˈʋeːtə(n)/|lang=nl}}
+* {{audio|Nl-weten.ogg|audio|lang=nl}}
+
+===Etymology 1===
+{{PIE root|nl|weyd}}
+From {{inh|nl|dum|weten}}, from {{inh|nl|odt|witan}}, from {{inh|nl|gem-pro|*witaną}}, from {{inh|nl|ine-pro|*wóyde||know}}, a root perfect from the root {{m|ine-pro|*weyd-}}.
+
+====Verb====
+{{nl-verb}}
+
+# {{lb|nl|transitive}} to [[know]] (knowledge)
+#: {{usex|nl|Ik '''weet''' hoe die planeet heet.|I '''know''' what that planet is called.}}
+# {{lb|nl|transitive}} to [[remember]]
+#: {{usex|nl|Ik '''weet''' nog hoe koud het vorig jaar was.|I still '''remember''' how cold it was last year.}}
+# {{lb|nl|auxiliary|with {{m|nl|te}}}} to [[be]] [[able]] [[to]], to [[manage]] to
+#: {{usex|nl|De Frisii waren een Germaans volk en net als verscheidene andere Germaanse volkeren '''wisten''' ze zich fel '''te''' verdedigen tegen de Romeinen. Toch moesten de Frisii zich in het jaar 12 onderwerpen doordat veldheer Drusus hen '''wist te''' verslaan.|The Frisii were a Germanic people and just like various other Germanic peoples they '''were able to''' fiercely defend themselves against the Romans. Nevertheless, the Frisii had to subject themselves in the year 12 because warlord Drusus '''was able to''' defeat them.}}
+#: {{usex|nl|De voornamelijk op lokaal niveau succesvolle partij Freie Wähler '''weet''' voor het eerst ergens op deelstaatniveau de kiesdrempel '''te''' halen.|The party Freie Wähler, successful primarily at the local level, '''is able''' for the first time to achieve the election threshold somewhere at the state level.}}
+
+=====Inflection=====
+{{nl-conj-irr|weten}}
+
+=====Derived terms=====
+* {{l|nl|onwetend}}
+* {{l|nl|te weten}}
+* {{l|nl|wetenschap}}
+
+=====Descendants=====
+* Afrikaans: {{l|af|weet}}
+
+=====See also=====
+* {{l|nl|kennen}}
+
+===Etymology 2===
+{{nonlemma}}
+
+====Verb====
+{{nl-verb-form}}
+
+# {{nl-verb form of|n=pl|t=past|m=ind+subj|wijten}}
+
+===Anagrams===
+* {{l|nl|weent}}
+
+----
+
+==Low German==
+
+===Etymology===
+From {{inh|nds|gml|wēten}}, from {{etyl|osx|nds}} {{m|osx|witan}}, from {{etyl|gem-pro|nds}} {{m|gem-pro|*witaną}}.
+
+===Verb===
+{{head|nds|verb}} (''past singular'' '''[[wüss]]''', ''past participle'' '''[[wüsst]]''', ''auxiliary verb'' '''[[hebben]]''')
+# {{lb|nds|transitive|or|intransitive}} to [[know]]; to be [[aware]] of (a fact)
+#: ''Ik '''weet''', woneem du büst.'' — “I know where you are.”
+#: ''vun wat '''weten''''' — “to know about something”
+
+====Conjugation====
+{{nds-conj-table<!--
+-->|head=''weten'' (preterite-present)<!--
+
+Present indicative
+-->|weet<!--
+-->|weetst/weeßt<!--
+-->|weet<!--
+-->|weet<!--
+
+Past indicative
+-->|wüss<!--
+-->|wüsst<!--
+-->|wüss<!--
+-->|wüssen<!--
+
+Imperative
+-->|—<!--
+-->|—<!--
+
+Participles
+-->|weten<!--
+-->|weten, wüsst<!--
+-->}}
+
+====Synonyms====
+* {{l|nds|kennen}}
+
+----
+
+==Middle Dutch==
+
+===Etymology===
+From {{inh|dum|odt|witan}}, from {{inh|dum|gem-pro|*witaną}}, from {{inh|dum|ine-pro|*wóyde}}.
+
+===Verb===
+{{dum-verb|head=wēten}}
+
+# to [[know]] {{gloss|knowledge}}
+# to [[know]] {{gloss|person}}
+# to [[get to know]], to [[learn]] of, to be made [[aware]] of {{gloss|a fact}}
+# {{lb|dum|auxiliary|with {{m|dum|te}}}} to [[be]] [[able]] [[to]]
+
+====Inflection====
+{{rfinfl|dum|verb}}
+
+====Descendants====
+* Dutch: {{l|nl|weten}}
+* Limburgish: {{l|li|weite}}, {{l|li|wiete}}
+
+===Further reading===
+* {{R:VMNW|ID21562|II}}
+* {{R:MNW|72877|I}}
+
+----
+
+==Middle Low German==
+
+===Pronunciation===
+* '''[[Wiktionary:About_Middle_Low_German#Stem_vowels|Stem vowel]]: ē¹'''
+** {{a|originally}} {{IPA|/wɪətən/|lang=gml}}
+
+===Etymology===
+From {{inh|gml|osx|witan}}, from {{inh|gml|gem-pro|*witaną}}, from {{etyl|ine-pro|gml}} {{m|ine-pro|*weyd-||see, know}}. Compare Dutch {{m|nl|weten}}, German {{m|de|wissen}}, archaic English {{m|en|wit}}, Danish {{m|da|vide}}.
+
+===Verb===
+{{head|gml|verb|head=wēten}}
+
+# to [[know]] (knowledge)
+
+{{attention|gml|conjugation}}
+
+----
+
+==Zazaki==
+
+===Etymology===
+From {{etyl|ar|zza}} {{m|ar|وَطَن}}.
+
+===Noun===
+{{zza-noun}}
+
+# [[homeland]], home country
+# [[motherland]], [[fatherland]], mother country

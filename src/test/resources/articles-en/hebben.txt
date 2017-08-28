@@ -1,0 +1,92 @@
+==Dutch==
+
+===Pronunciation===
+* {{IPA|lang=nl|/ˈɦɛbə(n)/}}
+* {{audio|Nl-hebben.ogg|audio|lang=nl}}
+
+===Etymology===
+From {{inh|nl|dum|hebben}}, from {{inh|nl|odt|hebban}}, from {{inh|nl|gem-pro|*habjaną}}, from {{der|nl|ine-pro|*keh₂p-||to grasp}}.
+
+===Verb===
+{{nl-verb}}
+
+# {{lb|nl|transitive}} to [[have]], to [[possess]], [[own]], [[hold]]
+#: {{ux|nl|'''Hebt''' u een minuut?|Do you '''have''' a minute?}}
+#: {{syn|nl|bezitten}}
+# {{lb|nl|transitive|medicine}} to be [[afflict]]ed with a [[disease]]
+#: {{ux|nl|Ik '''heb''' longkanker.|I '''have''' lung cancer.}}
+# {{lb|nl|auxiliary}} {{non-gloss definition|Used to form the [[perfect tense]] of the [[active voice]] of most verbs, together with a [[past participle]].}}
+#: {{ux|nl|Ik '''heb''' het koekje opgegeten.|I '''have''' eaten the biscuit.}}
+#: {{ux|nl|Ze '''hadden''' hun auto net gewassen.|They '''had''' only just washed their car.}}
+#: {{ux|nl|Hij '''heeft''' naar huis moeten lopen.|He '''must''' have walked home.}}
+#: {{ux|nl|Ik '''heb''' hem horen praten.|I '''have''' heard him speak.}}
+#: {{ux|nl|Dat '''had''' je moeten doen.|You '''had''' been going to do that.}}
+# {{lb|nl|auxiliary|with {{m|nl|te}}}} to [[must]], to be [[obliged]] to, to [[be]] to
+
+====Inflection====
+{{nl-conj-irr|hebben}}
+
+====Derived terms====
+* {{l|nl|aanhebben}}
+* {{l|nl|doorhebben}}
+* {{l|nl|hebben en houden}}
+
+----
+
+==Low German==
+
+===Etymology===
+From {{etyl|osx|nds}} {{m|osx|hebbian}}, from {{etyl|gem-pro|nds}} {{m|gem-pro|*habjaną}}, from {{etyl|ine-pro|nds}} {{m|ine-pro|*keh₂p-||to grasp}}. Compare Dutch {{m|nl|hebben}}, German {{m|de|haben}}, West Frisian {{m|fy|hawwe}}, English {{m|en|have}}, Danish {{m|da|have}}.
+
+===Verb===
+{{head|nds|verb|third-person singular simple present|hett|past tense|harr|past participle|hatt|auxiliary verb|hebben}}
+
+# to [[have]]
+
+====Conjugation====
+{{nds-conj-table<!--
+-->|head=''hebben'' (irregular verb)<!--
+
+Present indicative
+-->|heff<!--
+-->|hest<!--
+-->|hett<!--
+-->|hebbt<!--
+
+Past indicative
+-->|harr<!--
+-->|harrst<!--
+-->|harr<!--
+-->|harren<!--
+
+Imperative
+-->|hebb<!--
+-->|hebbt<!--
+
+Participles
+-->|hebben<!--
+-->|hatt<!--
+-->}}
+
+----
+
+==Middle Dutch==
+
+===Etymology===
+From {{inh|dum|odt|hebban}}, from {{inh|dum|gem-pro|*habjaną}}.
+
+===Pronunciation===
+* {{IPA|lang=dum|/ˈhebːən/}}
+
+===Verb===
+{{dum-verb}}
+
+# to [[have]]
+
+====Descendants====
+* Dutch: {{l|nl|hebben}}
+* Limburgish: {{l|li|höbbe}}
+
+===Further reading===
+* {{R:VMNW|ID18261|II}}
+* {{R:MNW|16041}}

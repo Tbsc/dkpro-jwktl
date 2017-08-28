@@ -1,0 +1,46 @@
+{{also|Willen}}
+==Dutch==
+
+===Pronunciation===
+* {{IPA|/ˈʋɪl.ə(n)/|lang=nl}}
+* {{audio|Nl-willen.ogg|audio|lang=nl}}
+
+===Etymology===
+From {{inh|nl|dum|willen}}, from {{inh|nl|odt|*willen}}, from {{inh|nl|gem-pro|*wiljaną}}, from {{der|nl|ine-pro|*welh₁-}}.
+
+===Verb===
+{{nl-verb}}
+
+# to [[want]], to [[desire]]
+# {{lb|nl|auxiliary}} to [[want to]]
+# {{lb|nl|in the past tense}} to [[wish]]
+#: {{ux|nl|Ik '''wou''' dat ik dat kon.|I '''wish''' I could (do) that.}}
+
+====Inflection====
+{{m|nl|wou|Wou}}/{{m|nl|wouden}} is often used in the past tense, depending on the region, but mostly in spoken language. In written language, {{m|nl||wilde}}/{{m|nl||wilden}} is preferred by many, although {{m|nl|wou}}/{{m|nl|wouden}} is recognized as correct standard Dutch.
+{{nl-conj-irr|willen}}
+
+----
+
+==Middle Dutch==
+
+===Etymology===
+From {{inh|dum|odt|*willen}}, from {{inh|dum|gem-pro|*wiljaną}}, from {{der|dum|ine-pro|*welh₁-}}.
+
+===Verb===
+{{dum-verb}}
+
+# to [[want]], to [[desire]]
+# {{lb|dum|auxiliary}} to [[want to]]
+# to [[demand]], to [[order]]
+
+====Inflection====
+{{rfinfl|dum|verb}}
+
+====Descendants====
+* Dutch: {{l|nl|willen}}
+* Limburgish: {{l|li|wille}}
+
+===Further reading===
+* {{R:VMNW|ID77532}}
+* {{R:MNW|73633}}

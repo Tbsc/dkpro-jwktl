@@ -1,0 +1,119 @@
+{{also|mögen}}
+==Dutch==
+
+===Pronunciation===
+* {{IPA|/ˈmoːɣə(n)/|lang=nl}}
+* {{audio|Nl-mogen.ogg|Audio|lang=nl}}
+* {{rhymes|oːɣən|lang=nl}}
+
+===Etymology===
+From {{inh|nl|dum|mogen}}, from {{inh|nl|odt|mugan}}, from {{inh|nl|gem-pro|*maganą}}, from {{der|nl|ine-pro|*magʰ-}}, {{m|ine-pro|*megʰ-}}.
+
+===Verb===
+{{nl-verb}}
+
+# {{lb|nl|auxiliary}} [[may]], [[can]], [[be]] [[allowed]] to.
+#: ''We '''mogen''' toch komen.''
+#:: We '''are allowed to''' come after all.
+# {{lb|nl|intransitive}} to be [[allowed]], to be [[permitted]]
+#: ''Hee! Dat '''mag''' niet!''
+#:: Hey! You '''can't do''' that!
+# {{lb|nl|transitive}} to be allowed to [[have]]/[[take]], to [[may]] [[have]] {{gloss|used as a polite way to request something}}
+#: '''''Mag''' ik twee appels alstublieft?''
+#:: '''May''' I '''have''' two apples please?
+# {{lb|nl|transitive}} To [[like]] {{gloss|of food or of a person}}.
+#: ''Ik '''mag''' hem niet.''
+#:: I don't '''like''' him.
+
+====Inflection====
+{{nl-conj-irr|mogen}}
+
+====Synonyms====
+* {{sense|may}} {{l|nl|kunnen}}
+* {{sense|be permitted}} {{l|nl|toegestaan}} {{l|nl|zijn}}
+* {{sense|like}} {{l|nl|aardig}} {{l|nl|vinden}}
+
+====Derived terms====
+* {{l|nl|vermogen}}
+
+----
+
+==Mapudungun==
+
+===Noun===
+{{head|arn|noun|using Raguileo Alphabet}}
+
+# [[life]]
+
+===Verb===
+{{head|arn|verb|using Raguileo Alphabet}}
+
+# To [[live]]; To be [[alive]].
+# To [[heal]].
+# First-person singular realis mood form of [[mogen]]; I [[lived]]; I have [[lived]].
+
+====Conjugation====
+{{arn-conj-n|moge}}
+
+----
+
+==Middle Dutch==
+
+===Etymology===
+From {{inh|dum|odt|mugan}}, from {{inh|dum|gem-pro|*maganą}}.
+
+===Verb===
+{{dum-verb|head=mōgen}}
+
+# to be [[capable]] of
+# [[can]], to [[be able]] {{gloss|in given circumstances}}
+# {{lb|dum|in questions}} [[may]], [[can]], [[be]] [[allowed]] to
+# to be [[allowed]], to be [[permitted]]
+# [[shall]], to be [[expected]] to
+# to be [[required]] to
+
+====Inflection====
+{{rfinfl|dum|verb}}
+
+====Alternative forms====
+* {{l|dum|muegen}}
+
+====Descendants====
+* Dutch: {{l|nl|mogen}}
+* Limburgish: {{l|li|moge}}
+
+===Further reading===
+* {{R:VMNW|ID29852|moghen}}
+* {{R:MNW|30475|I}}
+
+----
+
+==Norwegian Nynorsk==
+
+===Adjective===
+{{nn-adj-4}}
+
+# {{alternative form of|moden|lang=nn}}
+
+----
+
+==Swedish==
+
+===Etymology===
+From {{etyl|gmq-osw|sv}} {{m|gmq-osw|moin}}, {{m|gmq-osw|moghin}}, corresponding to {{cog|da|moden}}, probably the past participle of a verb.
+
+===Pronunciation===
+* {{audio|Sv-mogen.ogg|Audio|lang=sv}}
+
+===Adjective===
+{{head|sv|adjective}}
+
+# [[mature]] (fully developed), [[ripe]] (ready for harvest)
+
+====Declension====
+{{sv-adj-reg|2=moget|3=mogn}}
+
+====Related terms====
+* {{l|sv|mogna}}
+* {{l|sv|mognad}}
+* {{l|sv|omogen}}

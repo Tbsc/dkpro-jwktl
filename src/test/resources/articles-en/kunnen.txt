@@ -1,0 +1,42 @@
+{{also|künnen}}
+==Dutch==
+
+===Pronunciation===
+* {{IPA|/ˈkʏnə(n)/|lang=nl}}
+* {{audio|Nl-kunnen.ogg|Audio|lang=nl}}
+* {{rhymes|ʏnən|lang=nl}}
+
+===Etymology===
+{{PIE root|nl|ǵneh₃}}
+From {{inh|nl|dum|connen}}, {{m|dum|cunnen}}, from {{inh|nl|odt|kunnan}}, from {{inh|nl|gem-pro|*kunnaną}}, from {{der|nl|ine-pro|*ǵneh₃-}}.
+
+===Verb===
+{{nl-verb}}
+
+# {{lb|nl|auxiliary}} [[can]], to [[be able to]]
+#: {{ux|nl|Hij '''kon''' goed rennen, omdat hij een getraind sportbeoefenaar was.|He '''could''' run well, because he was a trained sportsman.}}
+# {{lb|nl|transitive}} to [[be able to]] [[do]], to be capable of
+#: {{ux|nl|Ik '''kan''' dat niet.|I '''am''' not '''able''' to do that.}}
+# {{lb|nl|intransitive}} to be [[available]] (for any type of meeting or appointment)
+#: {{ux|nl|Ik '''kan''' morgenavond niet.|I will not '''be available''' tomorrow night.}}
+# {{lb|nl|intransitive}} to be [[possible]]
+#: {{ux|nl|Dat '''kan''' niet.|That '''is''' not '''possible'''.}}
+
+====Inflection====
+{{nl-conj-irr|kunnen}}
+
+====Derived terms====
+* {{l|nl|kunde}}
+* {{l|nl|kunst}}
+* {{l|nl|aankunnen}}
+
+----
+
+==Swedish==
+
+===Verb===
+{{head|sv|verb form}}
+
+# {{sv-verb-form-pre|kunna|plural of=kan}} 2nd person only
+#: ''Och om I gören gott mot dem som göra eder gott, vad tack '''kunnen''' I få därför?''
+#:: And if ye do good to them which do good to you, what thank have ye? (Luke 6:33)

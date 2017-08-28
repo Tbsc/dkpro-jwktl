@@ -1,0 +1,82 @@
+{{also|möten}}
+==Dutch==
+
+===Pronunciation===
+* {{IPA|/ˈmutə(n)/|lang=nl}}
+* {{audio|Nl-moeten.ogg|Audio|lang=nl}}
+
+===Etymology===
+From {{inh|nl|dum|moeten}}, from {{inh|nl|odt|muotan}}, from {{inh|nl|gem-pro|*mōtaną}}.
+
+===Verb===
+{{nl-verb}}
+
+# {{lb|nl|intransitive}} to be [[necessary]], to be [[required]]
+# {{lb|nl|auxiliary}} to [[have to]], [[must]]
+#: ''Hij '''moet''' gaan.''
+#:: He '''has to''' go; He '''must''' go.
+#: '''''Moest''' je nog werken vanavond?''
+#:: Did you '''have to''' work tonight? (''please see "moest" Usage Note below'')
+# {{lb|nl|auxiliary}} [[should]], be [[mean|meant]] to
+#: ''Eigenlijk '''moet''' daar een schilderij hangen, maar het is laatst gestolen.''
+#:: A painting '''is''' really '''meant to''' be hanging there, but it was stolen recently.
+#: ''Dat '''moet''' je echt niet doen.''
+#:: You really '''should''' not do that.
+# {{lb|nl|intransitive|informal}} to need to go to the [[toilet]]
+#: ''Ik '''moet''' heel nodig!''
+#:: I really '''need to go''' badly!
+
+====Usage notes====
+The past tense ''moest'' can be used in the present. In Dutch, one can ask "Moest je nog werken vanavond?" which can mean both "'''did''' you have to work tonight?" and "'''do''' you have to work tonight?". This is similar to {{l|nl|gaan}}.
+
+====Inflection====
+{{nl-conj-irr|moeten}}
+
+====Synonyms====
+* {{sense|have to}} {{l|nl|verplicht}} {{l|nl|zijn}} {{l|nl|te}}
+* {{sense|should}} {{l|nl|zou}} moeten, {{l|nl|horen}}
+
+====Antonyms====
+* {{sense|have to, usually in negative sentences}} {{l|nl|hoeven}}
+
+----
+
+==Middle Dutch==
+
+===Etymology 1===
+From {{inh|dum|odt|muotan}}, from {{inh|dum|gem-pro|*mōtaną}}.
+
+====Verb====
+{{dum-verb}}
+
+# {{lb|dum|auxiliary}} to [[have to]], [[must]], to be [[obliged]] to
+# {{lb|dum|auxiliary}} to be [[allowed]] to, to have [[permission]] to
+# {{lb|dum|auxiliary}} [[will]], [[shall]]
+
+=====Inflection=====
+{{rfinfl|dum|verb}}
+
+=====Descendants=====
+* {{desc|nl|moeten}}
+** {{desc|af|moet}}
+* Limburgish: {{l|li|mótte}}
+
+===Etymology 2===
+From {{inh|dum|odt|*muoten}}, from {{inh|dum|gem-pro|*mōtijaną}}.
+
+====Verb====
+{{dum-verb}}
+
+# to [[meet]], to [[come upon]]
+# to [[meet]] with [[hostility]]
+
+=====Inflection=====
+{{rfinfl|dum|verb}}{{cln|dum|weak verbs}}
+
+=====Descendants=====
+* Limburgish: {{l|li|mote}}
+
+===Further reading===
+* {{R:VMNW|ID19852}}
+* {{R:MNW|30438|I}}
+* {{R:MNW|30439|II}}
