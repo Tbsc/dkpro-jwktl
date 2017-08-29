@@ -6,7 +6,6 @@ import com.sleepycat.persist.model.Persistent;
  * Created on 25/08/2017
  * @author tbsc
  */
-@Persistent
 public enum NLInflection {
 
     INFINITIVE(Type.INFINITIVE, Number.NONE, Tense.NONE),
