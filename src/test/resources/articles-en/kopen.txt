@@ -1,0 +1,38 @@
+{{also|köpen}}
+==Dutch==
+
+===Pronunciation===
+* {{IPA|/ˈkoːpə(n)/|lang=nl}}
+* {{audio|Nl-kopen.ogg|audio|lang=nl}}
+* {{rhymes|oːpən|lang=nl}}
+
+===Etymology 1===
+From {{inh|nl|dum|côpen}}, from {{inh|nl|odt|*kōpon}}, from {{inh|nl|gem-pro|*kaupōną}}, from {{der|nl|la|caupō}}.
+
+====Verb====
+{{nl-verb}}
+
+# {{lb|nl|transitive}} to [[buy]]
+#: {{ux|nl|Ik '''kocht''' gisteren wat koffiedik.|I '''bought''' some coffee grounds yesterday.}}
+
+=====Inflection=====
+{{nl-conj-wk-cht|koop|kope|ko}}
+
+=====Derived terms=====
+* {{l|nl|koper}}
+* {{l|nl|aankopen}}
+* {{l|nl|afkopen}}
+* {{l|nl|bekopen}}
+* {{l|nl|inkopen}}
+* {{l|nl|verkopen}}
+
+===Etymology 2===
+{{nonlemma}}
+
+====Noun====
+{{head|nl|noun plural form}}
+
+# {{plural of|koop|lang=nl}}
+
+===Anagrams===
+* {{l|nl|knope}}

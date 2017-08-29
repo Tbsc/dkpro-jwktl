@@ -1,0 +1,36 @@
+==Dutch==
+
+===Etymology 1===
+From {{prefix|nl|door|denken}}.
+
+====Pronunciation====
+* {{IPA|lang=nl|/doːrˈdɛŋkə(n)/}}
+* {{audio|Nl-doordénken.ogg|Audio|lang=nl}}
+
+====Verb====
+{{nl-verb}}
+
+# {{lb|nl|transitive}} to [[think through]]
+
+=====Inflection=====
+{{nl-conj-wk-cht|pref=door|denk||da}}
+
+===Etymology 2===
+From {{compound|nl|door|denken}}.
+
+====Pronunciation====
+* {{IPA|lang=nl|/ˈdoːrdɛŋkə(n)/}}
+* {{audio|Nl-dóórdenken.ogg|Audio|lang=nl}}
+
+====Verb====
+{{nl-verb}}
+
+# {{lb|nl|intransitive}} to [[think]] [[further]], to [[keep]] [[thinking]]
+
+=====Inflection=====
+{{nl-conj-wk-cht|sep=door|denk||da}}
+
+===Anagrams===
+* {{l|nl|denken door}}
+
+[[Category:Dutch heteronyms]]

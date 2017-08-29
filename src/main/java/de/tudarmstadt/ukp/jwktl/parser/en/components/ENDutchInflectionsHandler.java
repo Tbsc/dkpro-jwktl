@@ -305,7 +305,115 @@ public class ENDutchInflectionsHandler extends ENBlockHandler implements Templat
     }
 
     private void handleChtWeakVerbTemplate(TemplateParser.Template template) {
+        // required param, null checking isn't needed
+        String stem = template.getNumberedParam(0);
+        String pastWithoutCht = template.getNumberedParam(2);
+        String pastWithCht = pastWithoutCht + "cht";
 
+        String presentSubjunctiveStem;
+        String presentSubjunctiveSuffix = "e";
+        // <rant>
+        // someone decided it'd be a good idea to have a required param, then an OPTIONAL param, then another required one.
+        // I don't know what made them think that's a good idea, because now I need to make different checks
+        // </rant>
+        if (!"".equals(template.getNumberedParam(1))) {
+            presentSubjunctiveStem = template.getNumberedParam(1);
+            presentSubjunctiveSuffix = "";
+        } else {
+            presentSubjunctiveStem = stem;
+        }
+
+        // default is hebben
+        String auxiliaryVerb = "hebben";
+        if (template.getNamedParam("aux") != null) {
+            auxiliaryVerb = template.getNamedParam("aux");
+        }
+
+        // default is nothing
+        String prefix = "";
+        if (template.getNamedParam("pref") != null) {
+            prefix = template.getNamedParam("pref");
+        }
+        // past participle prefix should be ge-, or any other provided prefix
+        String pastParticiplePrefix;
+        if ("".equals(prefix)) {
+            pastParticiplePrefix = "ge";
+        } else {
+            pastParticiplePrefix = prefix;
+        }
+
+        // default is nothing
+        String separable = "";
+        if (template.getNamedParam("sep") != null) {
+            separable = " " + template.getNamedParam("sep");
+        }
+
+        // got all needed data, start inflecting verbs
+
+        // infinitive is also the gerund and verbal noun (in weak verbs)
+        String infinitive = separable.trim() + prefix + presentSubjunctiveStem + presentSubjunctiveSuffix + "n";
+
+        String firstPersonSingularPresent = prefix + stem + separable;
+
+        // 2nd and 3rd singular present for weak verbs is the same
+        String secondThirdPersonSingularPresent = prefix + stem + "t" + separable;
+
+        // singular past is the same for all PoVs
+        String singularPast = prefix + pastWithCht + separable;
+
+        // plural is the same for all PoVs
+        String pluralPresent = prefix + presentSubjunctiveStem + presentSubjunctiveSuffix + "n" + separable;
+        String pluralPast = prefix + pastWithCht + "en" + separable;
+
+        String subjunctiveSingularPresent = prefix + presentSubjunctiveStem + presentSubjunctiveSuffix + separable;
+        String subjunctiveSingularPast = prefix + pastWithCht + "e" + separable;
+        String subjunctivePluralPresent = prefix + presentSubjunctiveStem + presentSubjunctiveSuffix + "n" + separable;
+        String subjunctivePluralPast = prefix + pastWithCht + "en" + separable;
+
+        String imperativeSingular = prefix + stem + separable;
+        String imperativePlural = prefix + stem + "t" + separable;
+
+        String presentParticiple = separable.trim() + prefix + presentSubjunctiveStem + presentSubjunctiveSuffix + "nd";
+        String pastParticiple = separable.trim() + pastParticiplePrefix + pastWithCht;
+
+        // after creating all needed inflections, add them to map
+
+        // general
+        addInfl(NLInflection.INFINITIVE, infinitive);
+        addInfl(NLInflection.GERUND, infinitive);
+        addInfl(NLInflection.VERBAL_NOUN, infinitive);
+        // I know this isn't an inflection, but it should still be added
+        addInfl(NLInflection.AUXILIARY_VERB, auxiliaryVerb);
+        // weak verbs never have a class
+        addInfl(NLInflection.CLASS, "");
+
+        // 1st person
+        addInfl(NLInflection.FIRST_PERSON_SINGULAR_PRESENT, firstPersonSingularPresent);
+        addInfl(NLInflection.FIRST_PERSON_SINGULAR_PAST, singularPast);
+        // 2nd person
+        addInfl(NLInflection.SECOND_PERSON_SINGULAR_PRESENT, secondThirdPersonSingularPresent);
+        addInfl(NLInflection.SECOND_PERSON_SINGULAR_PAST, singularPast);
+        // 3rd person
+        addInfl(NLInflection.THIRD_PERSON_SINGULAR_PRESENT, secondThirdPersonSingularPresent);
+        addInfl(NLInflection.THIRD_PERSON_SINGULAR_PAST, singularPast);
+
+        // plural
+        addInfl(NLInflection.PLURAL_PRESENT, pluralPresent);
+        addInfl(NLInflection.PLURAL_PAST, pluralPast);
+
+        // subjunctive
+        addInfl(NLInflection.SUBJUNCTIVE_SINGULAR_PRESENT, subjunctiveSingularPresent);
+        addInfl(NLInflection.SUBJUNCTIVE_SINGULAR_PAST, subjunctiveSingularPast);
+        addInfl(NLInflection.SUBJUNCTIVE_PLURAL_PRESENT, subjunctivePluralPresent);
+        addInfl(NLInflection.SUBJUNCTIVE_PLURAL_PAST, subjunctivePluralPast);
+
+        // imperative
+        addInfl(NLInflection.IMPERATIVE_SINGULAR, imperativeSingular);
+        addInfl(NLInflection.IMPERATIVE_PLURAL, imperativePlural);
+
+        // participle
+        addInfl(NLInflection.PRESENT_PARTICIPLE, presentParticiple);
+        addInfl(NLInflection.PAST_PARTICIPLE, pastParticiple);
     }
 
     private void handleIrregularVerbTemplate(TemplateParser.Template template) {

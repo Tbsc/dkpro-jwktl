@@ -1,0 +1,177 @@
+{{also|Denken}}
+==Dutch==
+
+===Pronunciation===
+* {{IPA|/ˈdɛŋkə(n)/|lang=nl}}
+* {{audio|Nl-denken.ogg|Audio|lang=nl}}
+* {{rhymes|ɛnkən|lang=nl}}
+
+===Etymology===
+From {{inh|nl|dum|denken}}, from {{inh|nl|odt|thenken}}, from {{inh|nl|gem-pro|*þankijaną}}, from {{der|nl|ine-pro|*teng-}}.
+
+===Verb===
+{{nl-verb}}
+
+# {{lb|nl|intransitive}} to [[think]] {{+preo|nl|aan|means=about, of}}
+
+====Inflection====
+{{nl-conj-wk-cht|denk||da}}
+
+====Derived terms====
+* {{l|nl|bedenken}}
+* {{l|nl|doordenken}}
+* {{l|nl|gedenken}}
+* {{l|nl|herdenken}}
+* {{l|nl|nadenken}}
+* {{l|nl|uitdenken}}
+* {{l|nl|verdenken}}
+* {{l|nl|wensdenken}}
+* {{l|nl|denkfout}}
+
+===Anagrams===
+* {{l|nl|kenden}}, {{l|nl|kneden}}
+
+----
+
+==German==
+
+===Etymology===
+From {{inh|de|goh|denken}}, from {{inh|de|gem-pro|*þankijaną}}, from {{inh|de|ine-pro|*teng-}}. Compare {{cog|nds|denken}}, {{m|nds|dinken}}, {{cog|nl|denken}}, {{cog|fy|tinke}}, {{cog|en|think}}, {{cog|is|þekkja}}.
+
+===Pronunciation===
+* {{IPA|/ˈdɛŋkŋ̩/|/ˈdɛŋkən/|lang=de}}
+* {{audio|De-denken.ogg|audio (Germany)|lang=de}}
+* {{audio|De-at-denken.ogg|audio (Austria)|lang=de}}
+
+===Verb===
+{{de-verb-weak|class=|denkt|dachte|gedacht|past subjunctive=dächte}}
+
+# {{lb|de|intransitive|transitive}} to [[think]]
+#: {{ux|de|'''Denkt''' örtlich. Handelt örtlich.|t=Think locally. Act locally.}}
+# {{lb|de|transitive}} to [[consider]]
+# {{lb|de|reflexive|with dative}} to [[imagine]]
+
+====Conjugation====
+{{de-conj-strong|denk|dach|gedacht|h|||däch}}
+
+====Related terms====
+* [[denkbar]]
+* [[Denkmal]]
+
+===Further reading===
+* {{R:Duden}}
+
+----
+
+==Low German==
+
+===Etymology===
+From {{etyl|osx|nds}} {{m|osx|thenkian}}.
+
+===Verb===
+{{head|nds|verb|third-person singular simple present|denkt|past tense|dach|past participle|dacht|auxiliary verb|hebben}}
+# to [[think]]
+
+====Conjugation====
+{{nds-conj-wk|head=''denken'' (irregular weak verb)|denk|denk|dach|dach|dach}}
+
+----
+
+==Luxembourgish==
+
+===Etymology===
+From {{inh|lb|goh|denken}}, from {{inh|lb|gem-pro|*þankijaną}}.
+
+===Pronunciation===
+* {{IPA|/ˈdæŋkən/|lang=lb}}
+
+===Verb===
+{{lb-verb||geduecht|pp2=geduet|pret=duecht|subj=diecht}}
+
+# to [[think]]
+
+====Conjugation====
+{{lb-conj-irregular-full|denk|denk|denk|geduecht|hunn|duecht|diecht}}
+
+====Derived terms====
+* {{l|lb|ausdenken}}
+* {{l|lb|bedenken}}
+* {{l|lb|ëmdenken}}
+* {{l|lb|gedenken}}
+* {{l|lb|iwwerdenken}}
+* {{l|lb|nodenken}}
+* {{l|lb|verdenken}}
+* {{l|lb|zeréckdenken}}
+
+----
+
+==Middle Dutch==
+
+===Etymology===
+From {{inh|dum|odt|thenken}}, from {{inh|dum|gem-pro|*þankijaną}}.
+
+===Pronunciation===
+* {{IPA|lang=dum|/ˈdeŋkən/}}
+
+===Verb===
+{{dum-verb}}
+
+# to [[think]]
+
+====Inflection====
+{{dum-conj-wk|denk|dacht|past2=docht}}
+
+====Alternative forms====
+* {{l|dum|dinken}}
+
+====Derived terms====
+* {{l|dum|bedenken}}
+
+====Descendants====
+* Dutch: {{l|nl|denken}}
+* Limburgish: {{l|li|dinke}}
+
+===Further reading===
+* {{R:VMNW|ID88792|II}}
+* {{R:MNW|06368}}
+
+----
+
+==Middle Low German==
+
+===Pronunciation===
+* {{a|originally}} {{IPA|/deŋkən/|lang=gml}}
+
+===Etymology===
+From {{inh|gml|osx|thenkian}}, from {{inh|gml|gem-pro|*þankijaną}}. Cognate with {{cog|nl|denken}} and {{cog|en|think}}.
+
+===Verb===
+{{head|gml|verb}}
+
+# to [[think]], to [[perceive]]
+
+{{attention|gml|conjugation}}
+
+====Related terms====
+* {{l|gml|andenken}}
+
+====Descendants====
+* Low German: {{l|nds|denken}}
+
+----
+
+==Old High German==
+
+===Etymology===
+From {{inh|goh|gem-pro|*þankijaną}}, akin to {{cog|osx|thenkian}}, {{cog|odt|thenken}}, {{cog|ang|þencan}}, {{cog|non|þekkja}}, {{cog|got|𐌸𐌰𐌲𐌺𐌾𐌰𐌽}}.
+
+===Verb===
+{{head|goh|verb}}
+
+# to [[think]]
+
+====Conjugation====
+{{goh-conj-wk1|denk|dah}}
+
+====Descendants====
+* German: {{l|de|denken}}

@@ -1,0 +1,28 @@
+==Dutch==
+
+===Pronunciation===
+* {{IPA|/ˈaːŋkoːpə(n)/|lang=nl}}
+* {{audio|Nl-aankopen.ogg|Audio|lang=nl}}
+
+===Etymology 1===
+From {{compound|nl|aan|kopen}}.
+
+====Verb====
+{{nl-verb}}
+
+# {{lb|nl|transitive}} to [[purchase]]
+# {{lb|nl|transitive}} to [[buy]]
+
+=====Inflection=====
+{{nl-conj-wk-cht|sep=aan|koop|kope|ko}}
+
+===Etymology 2===
+{{nonlemma}}
+
+====Noun====
+{{head|nl|noun plural form}}
+
+# {{nl-noun form of|pl|aankoop}}
+
+===Anagrams===
+* [[aanknope#Dutch|aanknope]], [[knope aan#Dutch|knope aan]], [[kopen aan#Dutch|kopen aan]]

@@ -292,6 +292,207 @@ public class ENDutchInflectionsHandlerTest extends ENWiktionaryEntryParserTest {
         assertEquals("gegeven", gevenInfl.get(NLInflection.PAST_PARTICIPLE));
     }
 
+    public void testWeakChtVerbs() throws Exception {
+        IWiktionaryPage denken = parse("denken.txt");
+        Map<NLInflection, String> denkenInfl = denken.getEntry(0).getDutchVerbInflections();
+
+        assertEquals("denken", denkenInfl.get(NLInflection.INFINITIVE));
+        assertEquals("denken", denkenInfl.get(NLInflection.GERUND));
+        assertEquals("denken", denkenInfl.get(NLInflection.VERBAL_NOUN));
+        assertEquals("hebben", denkenInfl.get(NLInflection.AUXILIARY_VERB));
+        assertEquals("", denkenInfl.get(NLInflection.CLASS));
+
+        assertEquals("denk", denkenInfl.get(NLInflection.FIRST_PERSON_SINGULAR_PRESENT));
+        assertEquals("dacht", denkenInfl.get(NLInflection.FIRST_PERSON_SINGULAR_PAST));
+
+        assertEquals("denkt", denkenInfl.get(NLInflection.SECOND_PERSON_SINGULAR_PRESENT));
+        assertEquals("dacht", denkenInfl.get(NLInflection.SECOND_PERSON_SINGULAR_PAST));
+
+        assertEquals("denkt", denkenInfl.get(NLInflection.THIRD_PERSON_SINGULAR_PRESENT));
+        assertEquals("dacht", denkenInfl.get(NLInflection.THIRD_PERSON_SINGULAR_PAST));
+
+        assertEquals("denken", denkenInfl.get(NLInflection.PLURAL_PRESENT));
+        assertEquals("dachten", denkenInfl.get(NLInflection.PLURAL_PAST));
+
+        assertEquals("denke", denkenInfl.get(NLInflection.SUBJUNCTIVE_SINGULAR_PRESENT));
+        assertEquals("dachte", denkenInfl.get(NLInflection.SUBJUNCTIVE_SINGULAR_PAST));
+
+        assertEquals("denken", denkenInfl.get(NLInflection.SUBJUNCTIVE_PLURAL_PRESENT));
+        assertEquals("dachten", denkenInfl.get(NLInflection.SUBJUNCTIVE_PLURAL_PAST));
+
+        assertEquals("denk", denkenInfl.get(NLInflection.IMPERATIVE_SINGULAR));
+        assertEquals("denkt", denkenInfl.get(NLInflection.IMPERATIVE_PLURAL));
+
+        assertEquals("denkend", denkenInfl.get(NLInflection.PRESENT_PARTICIPLE));
+        assertEquals("gedacht", denkenInfl.get(NLInflection.PAST_PARTICIPLE));
+
+        // doordenken CAN be either prefixed or separable, testing both
+        IWiktionaryPage doordenken = parse("doordenken.txt");
+        Map<NLInflection, String> doordenkenPrefixedInfl = doordenken.getEntry(0).getDutchVerbInflections();
+        Map<NLInflection, String> doordenkenSeparableInfl = doordenken.getEntry(1).getDutchVerbInflections();
+
+        // prefixed entry
+        assertEquals("doordenken", doordenkenPrefixedInfl.get(NLInflection.INFINITIVE));
+        assertEquals("doordenken", doordenkenPrefixedInfl.get(NLInflection.GERUND));
+        assertEquals("doordenken", doordenkenPrefixedInfl.get(NLInflection.VERBAL_NOUN));
+        assertEquals("hebben", doordenkenPrefixedInfl.get(NLInflection.AUXILIARY_VERB));
+        assertEquals("", doordenkenPrefixedInfl.get(NLInflection.CLASS));
+
+        assertEquals("doordenk", doordenkenPrefixedInfl.get(NLInflection.FIRST_PERSON_SINGULAR_PRESENT));
+        assertEquals("doordacht", doordenkenPrefixedInfl.get(NLInflection.FIRST_PERSON_SINGULAR_PAST));
+
+        assertEquals("doordenkt", doordenkenPrefixedInfl.get(NLInflection.SECOND_PERSON_SINGULAR_PRESENT));
+        assertEquals("doordacht", doordenkenPrefixedInfl.get(NLInflection.SECOND_PERSON_SINGULAR_PAST));
+
+        assertEquals("doordenkt", doordenkenPrefixedInfl.get(NLInflection.THIRD_PERSON_SINGULAR_PRESENT));
+        assertEquals("doordacht", doordenkenPrefixedInfl.get(NLInflection.THIRD_PERSON_SINGULAR_PAST));
+
+        assertEquals("doordenken", doordenkenPrefixedInfl.get(NLInflection.PLURAL_PRESENT));
+        assertEquals("doordachten", doordenkenPrefixedInfl.get(NLInflection.PLURAL_PAST));
+
+        assertEquals("doordenke", doordenkenPrefixedInfl.get(NLInflection.SUBJUNCTIVE_SINGULAR_PRESENT));
+        assertEquals("doordachte", doordenkenPrefixedInfl.get(NLInflection.SUBJUNCTIVE_SINGULAR_PAST));
+
+        assertEquals("doordenken", doordenkenPrefixedInfl.get(NLInflection.SUBJUNCTIVE_PLURAL_PRESENT));
+        assertEquals("doordachten", doordenkenPrefixedInfl.get(NLInflection.SUBJUNCTIVE_PLURAL_PAST));
+
+        assertEquals("doordenk", doordenkenPrefixedInfl.get(NLInflection.IMPERATIVE_SINGULAR));
+        assertEquals("doordenkt", doordenkenPrefixedInfl.get(NLInflection.IMPERATIVE_PLURAL));
+
+        assertEquals("doordenkend", doordenkenPrefixedInfl.get(NLInflection.PRESENT_PARTICIPLE));
+        assertEquals("doordacht", doordenkenPrefixedInfl.get(NLInflection.PAST_PARTICIPLE));
+
+        assertEquals("doordenken", doordenkenSeparableInfl.get(NLInflection.INFINITIVE));
+        assertEquals("doordenken", doordenkenSeparableInfl.get(NLInflection.GERUND));
+        assertEquals("doordenken", doordenkenSeparableInfl.get(NLInflection.VERBAL_NOUN));
+        assertEquals("hebben", doordenkenSeparableInfl.get(NLInflection.AUXILIARY_VERB));
+        assertEquals("", doordenkenSeparableInfl.get(NLInflection.CLASS));
+
+        // separable entry
+        assertEquals("denk door", doordenkenSeparableInfl.get(NLInflection.FIRST_PERSON_SINGULAR_PRESENT));
+        assertEquals("dacht door", doordenkenSeparableInfl.get(NLInflection.FIRST_PERSON_SINGULAR_PAST));
+
+        assertEquals("denkt door", doordenkenSeparableInfl.get(NLInflection.SECOND_PERSON_SINGULAR_PRESENT));
+        assertEquals("dacht door", doordenkenSeparableInfl.get(NLInflection.SECOND_PERSON_SINGULAR_PAST));
+
+        assertEquals("denkt door", doordenkenSeparableInfl.get(NLInflection.THIRD_PERSON_SINGULAR_PRESENT));
+        assertEquals("dacht door", doordenkenSeparableInfl.get(NLInflection.THIRD_PERSON_SINGULAR_PAST));
+
+        assertEquals("denken door", doordenkenSeparableInfl.get(NLInflection.PLURAL_PRESENT));
+        assertEquals("dachten door", doordenkenSeparableInfl.get(NLInflection.PLURAL_PAST));
+
+        assertEquals("denke door", doordenkenSeparableInfl.get(NLInflection.SUBJUNCTIVE_SINGULAR_PRESENT));
+        assertEquals("dachte door", doordenkenSeparableInfl.get(NLInflection.SUBJUNCTIVE_SINGULAR_PAST));
+
+        assertEquals("denken door", doordenkenSeparableInfl.get(NLInflection.SUBJUNCTIVE_PLURAL_PRESENT));
+        assertEquals("dachten door", doordenkenSeparableInfl.get(NLInflection.SUBJUNCTIVE_PLURAL_PAST));
+
+        assertEquals("denk door", doordenkenSeparableInfl.get(NLInflection.IMPERATIVE_SINGULAR));
+        assertEquals("denkt door", doordenkenSeparableInfl.get(NLInflection.IMPERATIVE_PLURAL));
+
+        assertEquals("doordenkend", doordenkenSeparableInfl.get(NLInflection.PRESENT_PARTICIPLE));
+        assertEquals("doorgedacht", doordenkenSeparableInfl.get(NLInflection.PAST_PARTICIPLE));
+
+        IWiktionaryPage kopen = parse("kopen.txt");
+        Map<NLInflection, String> kopenInfl = kopen.getEntry(0).getDutchVerbInflections();
+
+        assertEquals("kopen", kopenInfl.get(NLInflection.INFINITIVE));
+        assertEquals("kopen", kopenInfl.get(NLInflection.GERUND));
+        assertEquals("kopen", kopenInfl.get(NLInflection.VERBAL_NOUN));
+        assertEquals("hebben", kopenInfl.get(NLInflection.AUXILIARY_VERB));
+        assertEquals("", kopenInfl.get(NLInflection.CLASS));
+
+        assertEquals("koop", kopenInfl.get(NLInflection.FIRST_PERSON_SINGULAR_PRESENT));
+        assertEquals("kocht", kopenInfl.get(NLInflection.FIRST_PERSON_SINGULAR_PAST));
+
+        assertEquals("koopt", kopenInfl.get(NLInflection.SECOND_PERSON_SINGULAR_PRESENT));
+        assertEquals("kocht", kopenInfl.get(NLInflection.SECOND_PERSON_SINGULAR_PAST));
+
+        assertEquals("koopt", kopenInfl.get(NLInflection.THIRD_PERSON_SINGULAR_PRESENT));
+        assertEquals("kocht", kopenInfl.get(NLInflection.THIRD_PERSON_SINGULAR_PAST));
+
+        assertEquals("kopen", kopenInfl.get(NLInflection.PLURAL_PRESENT));
+        assertEquals("kochten", kopenInfl.get(NLInflection.PLURAL_PAST));
+
+        assertEquals("kope", kopenInfl.get(NLInflection.SUBJUNCTIVE_SINGULAR_PRESENT));
+        assertEquals("kochte", kopenInfl.get(NLInflection.SUBJUNCTIVE_SINGULAR_PAST));
+
+        assertEquals("kopen", kopenInfl.get(NLInflection.SUBJUNCTIVE_PLURAL_PRESENT));
+        assertEquals("kochten", kopenInfl.get(NLInflection.SUBJUNCTIVE_PLURAL_PAST));
+
+        assertEquals("koop", kopenInfl.get(NLInflection.IMPERATIVE_SINGULAR));
+        assertEquals("koopt", kopenInfl.get(NLInflection.IMPERATIVE_PLURAL));
+
+        assertEquals("kopend", kopenInfl.get(NLInflection.PRESENT_PARTICIPLE));
+        assertEquals("gekocht", kopenInfl.get(NLInflection.PAST_PARTICIPLE));
+
+        IWiktionaryPage verkopen = parse("verkopen.txt");
+        Map<NLInflection, String> verkopenInfl = verkopen.getEntry(0).getDutchVerbInflections();
+
+        assertEquals("verkopen", verkopenInfl.get(NLInflection.INFINITIVE));
+        assertEquals("verkopen", verkopenInfl.get(NLInflection.GERUND));
+        assertEquals("verkopen", verkopenInfl.get(NLInflection.VERBAL_NOUN));
+        assertEquals("hebben", verkopenInfl.get(NLInflection.AUXILIARY_VERB));
+        assertEquals("", verkopenInfl.get(NLInflection.CLASS));
+
+        assertEquals("verkoop", verkopenInfl.get(NLInflection.FIRST_PERSON_SINGULAR_PRESENT));
+        assertEquals("verkocht", verkopenInfl.get(NLInflection.FIRST_PERSON_SINGULAR_PAST));
+
+        assertEquals("verkoopt", verkopenInfl.get(NLInflection.SECOND_PERSON_SINGULAR_PRESENT));
+        assertEquals("verkocht", verkopenInfl.get(NLInflection.SECOND_PERSON_SINGULAR_PAST));
+
+        assertEquals("verkoopt", verkopenInfl.get(NLInflection.THIRD_PERSON_SINGULAR_PRESENT));
+        assertEquals("verkocht", verkopenInfl.get(NLInflection.THIRD_PERSON_SINGULAR_PAST));
+
+        assertEquals("verkopen", verkopenInfl.get(NLInflection.PLURAL_PRESENT));
+        assertEquals("verkochten", verkopenInfl.get(NLInflection.PLURAL_PAST));
+
+        assertEquals("verkope", verkopenInfl.get(NLInflection.SUBJUNCTIVE_SINGULAR_PRESENT));
+        assertEquals("verkochte", verkopenInfl.get(NLInflection.SUBJUNCTIVE_SINGULAR_PAST));
+
+        assertEquals("verkopen", verkopenInfl.get(NLInflection.SUBJUNCTIVE_PLURAL_PRESENT));
+        assertEquals("verkochten", verkopenInfl.get(NLInflection.SUBJUNCTIVE_PLURAL_PAST));
+
+        assertEquals("verkoop", verkopenInfl.get(NLInflection.IMPERATIVE_SINGULAR));
+        assertEquals("verkoopt", verkopenInfl.get(NLInflection.IMPERATIVE_PLURAL));
+
+        assertEquals("verkopend", verkopenInfl.get(NLInflection.PRESENT_PARTICIPLE));
+        assertEquals("verkocht", verkopenInfl.get(NLInflection.PAST_PARTICIPLE));
+
+        IWiktionaryPage aankopen = parse("aankopen.txt");
+        Map<NLInflection, String> aankopenInfl = aankopen.getEntry(0).getDutchVerbInflections();
+
+        assertEquals("aankopen", aankopenInfl.get(NLInflection.INFINITIVE));
+        assertEquals("aankopen", aankopenInfl.get(NLInflection.GERUND));
+        assertEquals("aankopen", aankopenInfl.get(NLInflection.VERBAL_NOUN));
+        assertEquals("hebben", aankopenInfl.get(NLInflection.AUXILIARY_VERB));
+        assertEquals("", aankopenInfl.get(NLInflection.CLASS));
+
+        assertEquals("koop aan", aankopenInfl.get(NLInflection.FIRST_PERSON_SINGULAR_PRESENT));
+        assertEquals("kocht aan", aankopenInfl.get(NLInflection.FIRST_PERSON_SINGULAR_PAST));
+
+        assertEquals("koopt aan", aankopenInfl.get(NLInflection.SECOND_PERSON_SINGULAR_PRESENT));
+        assertEquals("kocht aan", aankopenInfl.get(NLInflection.SECOND_PERSON_SINGULAR_PAST));
+
+        assertEquals("koopt aan", aankopenInfl.get(NLInflection.THIRD_PERSON_SINGULAR_PRESENT));
+        assertEquals("kocht aan", aankopenInfl.get(NLInflection.THIRD_PERSON_SINGULAR_PAST));
+
+        assertEquals("kopen aan", aankopenInfl.get(NLInflection.PLURAL_PRESENT));
+        assertEquals("kochten aan", aankopenInfl.get(NLInflection.PLURAL_PAST));
+
+        assertEquals("kope aan", aankopenInfl.get(NLInflection.SUBJUNCTIVE_SINGULAR_PRESENT));
+        assertEquals("kochte aan", aankopenInfl.get(NLInflection.SUBJUNCTIVE_SINGULAR_PAST));
+
+        assertEquals("kopen aan", aankopenInfl.get(NLInflection.SUBJUNCTIVE_PLURAL_PRESENT));
+        assertEquals("kochten aan", aankopenInfl.get(NLInflection.SUBJUNCTIVE_PLURAL_PAST));
+
+        assertEquals("koop aan", aankopenInfl.get(NLInflection.IMPERATIVE_SINGULAR));
+        assertEquals("koopt aan", aankopenInfl.get(NLInflection.IMPERATIVE_PLURAL));
+
+        assertEquals("aankopend", aankopenInfl.get(NLInflection.PRESENT_PARTICIPLE));
+        assertEquals("aangekocht", aankopenInfl.get(NLInflection.PAST_PARTICIPLE));
+    }
+
     public void testIrregularVerbs() throws Exception {
         // hebben
         IWiktionaryPage hebben = parse("hebben.txt");
