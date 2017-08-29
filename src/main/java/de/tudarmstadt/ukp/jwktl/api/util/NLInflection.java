@@ -1,9 +1,12 @@
 package de.tudarmstadt.ukp.jwktl.api.util;
 
+import com.sleepycat.persist.model.Persistent;
+
 /**
  * Created on 25/08/2017
  * @author tbsc
  */
+@Persistent
 public class NLInflection {
 
     public enum Type {
