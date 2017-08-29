@@ -247,8 +247,8 @@ public class ENSenseHandler extends ENBlockHandler {
 			genders.forEach(entry::addGender);
 
 		// -- TBSC CHANGES --
-		entry.setHeadText(String.join("\n", head));
-		entry.setBodyText(String.join("\n", body));
+		entry.setHeadText(String.join("", head));
+		entry.setBodyText(String.join("", body));
 		// -- END CHANGES --
 	}
 
