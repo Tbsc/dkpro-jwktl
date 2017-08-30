@@ -1,0 +1,149 @@
+{{also|Redden}}
+==English==
+
+===Etymology===
+From {{suffix|red|en|lang=en}}.
+
+===Pronunciation===
+* {{rhymes|ɛdən|lang=en}}
+
+===Verb===
+{{en-verb}}
+
+# {{lb|en|intransitive}} To become [[red]] or [[redder]].
+#* '''1769''', [[w:Plautus|Plautus]], Bonnell Thornton (translation), "The Captives", ''The Comedies of Plautus'', T. Becket and P. A. De Hondt, page [http://books.google.com/books?id=UycBAAAAMAAJ&pg=PA341&dq=redden+-dutch+-german+date:1600-1799&num=50&as_brr=0 341]
+#*: But I will make you blush; nay, I will make you '''redden''' all over.
+#* '''1794''', [[w:William Hamilton (Jacobite poet)|William Hamilton]], "Mithridates", ''Poems on Several Occasions'', W. Gordon, page [http://books.google.com/books?id=c900AAAAMAAJ&pg=RA1-PA258&dq=hamilton+redden%27d&as_brr=0 258]
+#*: Ere this had '''redden'd''' with my odious blood.
+#* '''1997''', {{w|Ted Hughes}}, ''{{w|Tales from Ovid}}'', Faber & Faber, "Phaethon," lines 227-9, p. 32,
+#*: When the sun-god saw that, and the '''reddening''' sky
+#*: And the waning moon seeming to thaw
+#*: He called the Hours to yoke the horses.
+# {{lb|en|transitive}} To make [[red]] or [[redder]].
+#* '''1884''', {{w|Alfred, Lord Tennyson}}, ''Becket'', Act I, Scene 4, [http://www.gutenberg.org/cache/epub/9162/pg9162-images.html]
+#*: God '''redden''' your pale blood!
+#* '''1942''', {{w|Wallace Stevens}}, "Country Words" in ''The Collected Poems of Wallace Stevens'', Knopf, 1971, p. 207,
+#*: {{...}} If the cloud that hangs
+#*: Upon the heart and round the mind
+#*: Cleared from the north and in that height
+#*: The sun appeared and '''reddened''' great
+#*: Belshazzar's brow, O, ruler, rude
+#*: With rubies then, attend me now.
+#* '''1969''', {{w|Wole Soyinka}}, ''The Bacchae of Euripides'', Norton, 1974, p. 19,
+#*: Then listen Thebes, nurse of Semele,
+#*: Crown your hair with ivy
+#*: Turn your fingers green with bryony
+#*: '''Redden''' your walls with berries.
+
+====Translations====
+{{trans-top|to become red}}
+* Arabic: {{t-needed|ar}}
+* Armenian: {{t+|hy|կարմրել|sc=Armn}}, {{t+|hy|կարմրանալ|sc=Armn}}
+* Aromanian: {{t|rup|arushescu}}
+* Czech: {{t+|cs|červenat}}, {{t|cs|rudnout}}
+* Dutch: {{t|nl|rood worden}}
+* Esperanto: {{t|eo|ruĝiĝi}}
+* Finnish: [[punertua]], {{t|fi|punehtua}}; [[punastua]] (''of sb's face, as an emotional reaction'')
+* French: {{t+|fr|rougir}}
+* German: {{t+|de|erröten}}
+* Hungarian: {{t+|hu|vörösödik}}, {{t|hu|pirosodik}}
+* Ido: {{t+|io|redeskar}}
+* Indonesian: {{t+|id|memerah}}
+{{trans-mid}}
+* Karakhanid: {{t|xqa|قِزَرْماقْ|tr=qïzarmāq}}
+* Korean: {{t|ko|붉어지다}}
+* Maori: {{t+|mi|whero}}
+* Ottoman Turkish: {{t|ota|قیزارمق|tr=qïzarmaq}}
+* Polish: {{t|pl|czerwienieć|impf}}, {{t+|pl|poczerwienieć|pf}}, {{t|pl|sczerwienieć|pf}}
+* Portuguese: {{t+|pt|avermelhar}}, {{t|pt|vermelhar}}
+* Romanian: {{t+|ro|roși}}
+* Russian: {{t+|ru|красне́ть|impf}}, {{t+|ru|покрасне́ть|pf}}
+* Spanish: {{t+|es|enrojecer}}
+* Swedish: {{t+|sv|rodna}}
+* Telugu: {{t|te|ఎర్రబడు}}
+* Turkish: {{t+|tr|kızarmak}}
+{{trans-bottom}}
+
+{{trans-top|to make red}}
+* Arabic: {{t-needed|ar}}
+* Armenian: {{t+|hy|կարմրացնել|sc=Armn}}
+* Dutch: [[rood]] [[maken]]
+* Esperanto: {{t|eo|ruĝigi}}
+* Finnish: [[punata]]; [[punastuttaa]] (''cause an emotional reaction on sb's face'')
+* German: {{t+|de|röten}}
+* Hungarian: {{t+|hu|vörösít}}, {{t+|hu|pirosít}}
+{{trans-mid}}
+* Latin: {{t|la|rubefaciō}}
+* Maori: {{t|mi|pāhanahana}}, {{t|mi|whakawaikura}}
+* Polish: {{t+|pl|czerwienić|impf}}, {{t|pl|poczerwienić|pf}}
+* Portuguese: {{t+|pt|avermelhar}}, {{t|pt|vermelhar}}
+* Romanian: {{t+|ro|roși}}
+* Russian: {{t|ru|красни́ть}}
+* Spanish: {{t+|es|enrojecer}}
+{{trans-bottom}}
+
+====Related terms====
+* {{l|en|red}}
+
+====Derived terms====
+* {{l|en|reddener}}
+
+===Anagrams===
+* {{anagrams|en|derned|rended}}
+
+[[Category:English ergative verbs]]
+
+----
+
+==Dutch==
+
+===Etymology===
+From {{inh|nl|dum|redden}}, from {{inh|nl|odt|*redden}}, from {{inh|nl|gem-pro|*hradjaną}}.
+
+===Pronunciation===
+* {{audio|Nl-redden.ogg|Audio|lang=nl}}
+
+===Verb===
+{{nl-verb}}
+
+# to [[save]], [[rescue]]
+
+====Inflection====
+{{nl-conj-wk|red|redde}}
+
+====Derived terms====
+* {{l|nl|redding}}
+
+===Anagrams===
+* {{l|nl|dender}}, {{l|nl|derden}}, {{l|nl|redend}}
+
+----
+
+==Middle Dutch==
+
+===Etymology===
+From {{inh|dum|odt|*redden}}, from {{inh|dum|gem-pro|*hradjaną}}.
+
+===Verb===
+{{dum-verb}}
+
+# to [[save]], to [[rescue]]
+
+====Inflection====
+{{rfinfl|dum|verb}}{{cln|dum|weak verbs}}
+
+====Descendants====
+* Dutch: {{l|nl|redden}}
+* Limburgish: {{l|li|rèdde}}
+
+===Further reading===
+* {{R:MNW|45545|I}}
+
+----
+
+==Swedish==
+
+===Noun===
+{{head|sv|noun form}}
+
+# {{sv-noun-form-def|redd}}

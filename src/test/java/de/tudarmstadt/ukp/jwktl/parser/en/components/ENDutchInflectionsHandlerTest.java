@@ -156,6 +156,38 @@ public class ENDutchInflectionsHandlerTest extends ENWiktionaryEntryParserTest {
 
         assertEquals("vertrouwend", vertrouwenInfl.get(NLInflection.PRESENT_PARTICIPLE));
         assertEquals("vertrouwd", vertrouwenInfl.get(NLInflection.PAST_PARTICIPLE));
+
+        IWiktionaryPage redden = parse("redden.txt");
+        Map<NLInflection, String> reddenInfl = filterByLanguage(redden);
+
+        assertEquals("redden", reddenInfl.get(NLInflection.INFINITIVE));
+        assertEquals("redden", reddenInfl.get(NLInflection.GERUND));
+        assertEquals("redden", reddenInfl.get(NLInflection.VERBAL_NOUN));
+        assertEquals("hebben", reddenInfl.get(NLInflection.AUXILIARY_VERB));
+
+        assertEquals("red", reddenInfl.get(NLInflection.FIRST_PERSON_SINGULAR_PRESENT));
+        assertEquals("redde", reddenInfl.get(NLInflection.FIRST_PERSON_SINGULAR_PAST));
+
+        assertEquals("redt", reddenInfl.get(NLInflection.SECOND_PERSON_SINGULAR_PRESENT));
+        assertEquals("redde", reddenInfl.get(NLInflection.SECOND_PERSON_SINGULAR_PAST));
+
+        assertEquals("redt", reddenInfl.get(NLInflection.THIRD_PERSON_SINGULAR_PRESENT));
+        assertEquals("redde", reddenInfl.get(NLInflection.THIRD_PERSON_SINGULAR_PAST));
+
+        assertEquals("redden", reddenInfl.get(NLInflection.PLURAL_PRESENT));
+        assertEquals("redden", reddenInfl.get(NLInflection.PLURAL_PAST));
+
+        assertEquals("redde", reddenInfl.get(NLInflection.SUBJUNCTIVE_SINGULAR_PRESENT));
+        assertEquals("redde", reddenInfl.get(NLInflection.SUBJUNCTIVE_SINGULAR_PAST));
+
+        assertEquals("redden", reddenInfl.get(NLInflection.SUBJUNCTIVE_PLURAL_PRESENT));
+        assertEquals("redden", reddenInfl.get(NLInflection.SUBJUNCTIVE_PLURAL_PAST));
+
+        assertEquals("red", reddenInfl.get(NLInflection.IMPERATIVE_SINGULAR));
+        assertEquals("redt", reddenInfl.get(NLInflection.IMPERATIVE_PLURAL));
+
+        assertEquals("reddend", reddenInfl.get(NLInflection.PRESENT_PARTICIPLE));
+        assertEquals("gered", reddenInfl.get(NLInflection.PAST_PARTICIPLE));
     }
 
     public void testStrongVerbs() throws Exception {

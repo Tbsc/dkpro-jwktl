@@ -141,7 +141,11 @@ public class ENDutchInflectionsHandler extends ENBlockHandler implements Templat
         String imperativePlural = prefix + stem + "t" + separable;
 
         String presentParticiple = separable.trim() + prefix + presentSubjunctiveStem + presentSubjunctiveSuffix + "n" + suffix;
-        String pastParticiple = separable.trim() + pastParticiplePrefix + pastParticipleStem + pastParticipleSuffix;
+        String pastParticiple = separable.trim() + pastParticiplePrefix + pastParticipleStem;
+        // if the past participle stem already ends with the suffix, you don't add it
+        if (!pastParticiple.endsWith(pastParticipleSuffix)) {
+            pastParticiple += pastParticipleSuffix;
+        }
 
         // after creating all needed inflections, add them to map
 
