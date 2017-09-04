@@ -1,3 +1,25 @@
+Tbsc's JWKTL fork
+-----------------
+
+I started using this great library to help me learn Dutch, but my main problem with it was that because of how it was designed (Wiktionary dump is pre-parsed into a database), if some data you need is on Wiktionary but not accessible through the library, chances are it's not in the database either. That meant I had to fork, change the library to also parse whatever I need, change the API to let users access the new data, and parse the dump again.
+
+Changes
+-------
+
+As of now, the only differences are:
+- Dutch inflections handler
+- Getting wikitext of head and body
+
+Parsing
+-------
+
+Follow the original instructions [here](https://dkpro.github.io/dkpro-jwktl/documentation/getting-started/), but instead use my fork to create it.  
+You **must** use my fork, it won't work otherwise.
+Right now I don't have any precompiled binaries up, so you'll have to compile it yourself using `gradle build`.
+
+Original README
+---------------
+
 JWKTL
 -----
 [![Build Status](https://travis-ci.org/dkpro/dkpro-jwktl.svg)](https://travis-ci.org/dkpro/dkpro-jwktl)
